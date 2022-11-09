@@ -18,7 +18,7 @@ Please note the meeting location at 4801 Glenwood Ave suite 200 in Raleigh. It's
 - chatham house rules
 - don't be a dick
 - new meetup for bitcoin builders - stay tuned
-- thank you to our sponsors Carimus and Lolli
+- thank you to our sponsor Lolli
 - [Legends of Lightning](https://makers.bolt.fun/tournaments/1/overview)
 - introductions
 
