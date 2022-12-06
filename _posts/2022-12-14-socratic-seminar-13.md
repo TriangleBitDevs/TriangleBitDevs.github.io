@@ -49,7 +49,7 @@ Please note the meeting location at 4801 Glenwood Ave suite 200 in Raleigh. It's
 
 #### Miscellaneous
 
-- vallywal discusses onion messages, offers, blinded routes, and [async payments](https://lightningdevkit.org/blog/onion-messages-demystified/)
+- [Onion Messages Demystified](https://lightningdevkit.org/blog/onion-messages-demystified/) - onion messages, offers, blinded routes, and async payments
 - [BOLT proposal: Reputation Credentials](https://github.com/lightning/bolts/blob/80214c83190836c4f7699af9e8920769607f1a00/www-reputation-credentials-protocol.md) - solve channel jamming with reputation tokens
 - [CLN vs. LND, what's the diff?](https://voltage.cloud/blog/news/what-are-the-differences-between-lnd-and-cln/) - nice blog post that answers a very common question
 
@@ -72,12 +72,12 @@ Please note the meeting location at 4801 Glenwood Ave suite 200 in Raleigh. It's
 
 # Miscellaneous
 
-- [Clark Moody Bitcoin Dashboard](https://bitcoin.clarkmoody.com/dashboard/) Found this cool dashboard to get a summary of the entire bitcoin ecosystem at a glance. 
+- [Clark Moody Bitcoin Dashboard](https://bitcoin.clarkmoody.com/dashboard/)
 - [Block Hardware Wallet Security Model](https://wallet.build/losing-your-keys-without-losing-your-coins/)
 - [\[bitcoin-dev\] BIP Proposal: Wallet Labels Export Format](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2022-August/020887.html)
-- [Border Wallets](https://www.borderwallets.com/) are a new way to quickly and easily memorize Bitcoin seed phrases.
-- [Bitcoin Treasuries](https://bitcointreasuries.net) aggregated list of companies, funds, and countries that hold bitcoin.
-- [Binary Watch](https://binarywatch.org/) monitor checksums of various bitcoin binary releases
+- [Border Wallets](https://www.borderwallets.com/) - quickly and easily memorize Bitcoin seed phrases
+- [Bitcoin Treasuries](https://bitcointreasuries.net) - aggregated list of companies, funds, and countries that hold bitcoin.
+- [Binary Watch](https://binarywatch.org/) - monitor checksums of various bitcoin binary releases
 
 # Podcasts
 
