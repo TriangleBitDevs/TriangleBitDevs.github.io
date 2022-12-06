@@ -2,7 +2,7 @@
 layout: post
 type: socratic
 title: "Socratic Seminar 13"
-meetup: https://www.meetup.com/triangle-bitdevs/events/PLACEHOLDER
+meetup: https://www.meetup.com/triangle-bitdevs/events/290178149
 
 ---
 
