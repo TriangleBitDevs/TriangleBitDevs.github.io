@@ -29,6 +29,10 @@ Please note the meeting location at 4801 Glenwood Ave suite 200 in Raleigh. It's
 
 [BIP351](https://privatepayments.org) is a stealth address protocol that makes it possible for two parties to transact using addresses that only they can calculate. It's an improvement over [BIP47](https://github.com/bitcoin/bips/blob/master/bip-0047.mediawiki) because it takes measures to conceal the initial notification transaction. However, it still suffers from some of the same drawbacks: the sender must exercise coin control and it requires an on-chain transaction before any payments can be made.
 
+**Miniscript**
+
+[Miniscript](https://bitcoinops.org/en/topics/miniscript/) is a tool to analyze bitcoin script code. It will help wallet devs more easily support a wider variety of script templates. Rob will demo a miniscript project he's been working on with BDK.
+
 
 # Lightning
 
