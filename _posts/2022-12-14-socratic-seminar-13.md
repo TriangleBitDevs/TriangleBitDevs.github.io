@@ -84,8 +84,11 @@ Please note the meeting location at 4801 Glenwood Ave suite 200 in Raleigh. It's
 
 # Podcasts
 
+
 #### Coin Stories
-[Why Bitcoin is Better Money](https://youtu.be/-JsHZPTDeXE) - Knut Svanholm has an engaging conversation with Natalie Brunell talking about the most important discovery of our time. Big picture thinking on Bitcoin. ∞ / 21mil
+[Why Bitcoin is Better Money](https://podcasts.apple.com/us/podcast/coin-stories-with-natalie-brunell/id1569130932?i=1000587965031) - Knut Svanholm has an engaging conversation with Natalie Brunell talking about the most important discovery of our time. Big picture thinking on Bitcoin. ∞ / 21mil
 
 #### Bitcoin Explained
-[The Tornado Cash Trial](https://www.youtube.com/watch?v=xyHTUsHVv7s) - A good introduction to tornado cash and the arrest of Alexy Pertsev. Aaron and Sjors provide a high-level description of what was going on, it’s relevance to bitcoin, and even mention Wasabi Wallet at one point. A key point is that it is still unclear exactly which angle the prosecution is going to argue. They postponed the trial for another three months, at which time the prosecutor will have to provide a more detailed description of the charges.
+[What is Miniscript](https://podcasts.apple.com/us/podcast/bitcoin-explained-the-technical-side-of-bitcoin/id1532957243?i=1000492463881) - Aaron and Sjors describe what Miniscript is and how it simplifies the process of programming bitcoin compared to Script, in certain situations.
+
+[The Tornado Cash Trial](https://podcasts.apple.com/us/podcast/bitcoin-explained-the-technical-side-of-bitcoin/id1532957243?i=1000588498965) - A good introduction to tornado cash and the arrest of Alexy Pertsev. Aaron and Sjors provide a high-level description of what was going on, it’s relevance to bitcoin, and even mention Wasabi Wallet at one point. A key point is that it is still unclear exactly which angle the prosecution is going to argue. They postponed the trial for another three months, at which time the prosecutor will have to provide a more detailed description of the charges.
