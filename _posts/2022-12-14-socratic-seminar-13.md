@@ -60,7 +60,6 @@ Please note the meeting location at 4801 Glenwood Ave suite 200 in Raleigh. It's
 
 # Privacy
 
-- [Bisq](https://bisq.network/) - buy and sell bitcoin privately and securely on a P2P network.
 - [Payjoin](https://en.bitcoin.it/wiki/PayJoin) - make coinjoin payments!
 - [Void](https://github.com/brilliancebitcoin/void) - WIP bitcoin wallet that only sends and receives coinjoins.
 
