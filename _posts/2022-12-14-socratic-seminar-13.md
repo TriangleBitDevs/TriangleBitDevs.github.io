@@ -81,6 +81,7 @@ Please note the meeting location at 4801 Glenwood Ave suite 200 in Raleigh. It's
 - [Border Wallets](https://www.borderwallets.com/) - quickly and easily memorize Bitcoin seed phrases
 - [Bitcoin Treasuries](https://bitcointreasuries.net) - aggregated list of companies, funds, and countries that hold bitcoin.
 - [Binary Watch](https://binarywatch.org/) - monitor checksums of various bitcoin binary releases
+- [Legends of Lightning winners announced](https://boltfun.substack.com/p/legendsoflightning-2022-winners)
 
 # Podcasts
 
