@@ -60,6 +60,7 @@ Please note the meeting location at 4801 Glenwood Ave suite 200 in Raleigh. It's
 # Chaumian Ecash
 
 - [Anonsats](https://hackmd.io/@anonsats/SJDzzRR4i) - ecash system built on bitcoin, lightning, and [cashu](https://github.com/cashubtc/cashu).
+- [Cashu LNBits extension](https://twitter.com/callebtc/status/1600926923554971648) - Cashu is now available as a LNBits extension. It also now supports sending ecash via URL. Noice!
 
 
 # Privacy
