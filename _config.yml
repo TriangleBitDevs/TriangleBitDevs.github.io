@@ -17,3 +17,6 @@ exclude: ['README.md', 'Gemfile', 'Gemfile.lock', '.sass-cache']
 
 # Render events with a future date
 future: true
+
+# NIP-05 pubkeys
+include: [".well-known"]
