@@ -65,6 +65,7 @@ The bitcoin network spans across many different network architectures. The goal 
 # Miscellaneous
 
 - [Clark Moody Bitcoin Dashboard](https://bitcoin.clarkmoody.com/dashboard/)
+- [SHA256 algorithm](https://sha256algorithm.com/) - Watch the SHA256 algorithm execute with a super slick visualization
 - [Block Hardware Wallet Security Model](https://wallet.build/losing-your-keys-without-losing-your-coins/)
 - [\[bitcoin-dev\] BIP Proposal: Wallet Labels Export Format](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2022-August/020887.html)
 - [Border Wallets](https://www.borderwallets.com/) - quickly and easily memorize Bitcoin seed phrases
