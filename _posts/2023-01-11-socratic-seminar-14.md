@@ -62,6 +62,11 @@ The bitcoin network spans across many different network architectures. The goal 
 - [coinpool.dev](https://coinpool.dev/) - new site to track R&D progress
 
 
+# Covenants
+
+- [Vaults and Covenants](https://jameso.be/vaults.pdf) is a new proposal from [James O'Beirne](https://twitter.com/jamesob/) to enable flexible and performant on-chain vaults. It addresses the shortcomings of previous vault proposals using two new covenant opcodes: OP_VAULT and OP_UNVAULT. This is the first vault proposal to rely on [package relay](https://bitcoinops.org/en/topics/package-relay/) for dynamic fee management.
+
+
 # Miscellaneous
 
 - [Clark Moody Bitcoin Dashboard](https://bitcoin.clarkmoody.com/dashboard/)
