@@ -2,8 +2,7 @@
 layout: post
 type: socratic
 title: "Socratic Seminar 15"
-meetup: https://www.meetup.com/triangle-bitdevs/events/290721619
-
+meetup: https://www.meetup.com/triangle-bitdevs/events/291339872/
 ---
 
 We will start with introductions, some basic ground rules, and jump into technical discussions. 
