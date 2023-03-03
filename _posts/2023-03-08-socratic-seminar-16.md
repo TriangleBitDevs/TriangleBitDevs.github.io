@@ -45,3 +45,11 @@ Please note the meeting location at 4801 Glenwood Ave suite 200 in Raleigh, righ
 - [How does one become a DNS seed for Bitcoin Core?](https://bitcoin.stackexchange.com/questions/116931/how-does-one-become-a-dns-seed-for-bitcoin-core)
 - [Bitcoin node patch to filter out "ord" spam](https://gist.github.com/luke-jr/4c022839584020444915c84bdd825831)
 - [Genesis tweet of BTCPayServer](https://twitter.com/NicolasDorier/status/898378514256207872)
+
+# Podcasts
+
+### The Chaincode Podcast
+[James O'Beirne](https://podcast.chaincode.com/2020/02/12/james-obeirne-4.html) - In this classic episode from the pre-lockdown era James O'Beirne discusses the Chaincode Residency, AssumeUTXO, and how to make an impact working on Bitcoin Core.
+
+[Greg Sanders - SIGHASH_ANYPREVOUT, ephemeral anchors and LN symmetry (ELTOO)](https://podcast.chaincode.com/2023/02/15/greg-sanders.html) - In the latest episode Greg Sanders talks [APO](https://bitcoinops.org/en/topics/sighash_anyprevout/), [eltoo](https://bitcoinops.org/en/topics/eltoo/), and Ephemeral Anchors.
+
