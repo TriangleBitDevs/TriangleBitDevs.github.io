@@ -7,12 +7,26 @@ labels: ''
 
 ---
 
-### Bitcoin Core
+## Bitcoin Core
 
-### Lightning
 
-### Privacy
 
-### Podcast
+<br><br>
 
-### Miscellaneous
+## Lightning
+
+
+
+<br><br>
+
+## Privacy
+
+
+<br><br>
+
+## Media
+
+
+<br><br>
+
+## Miscellaneous
