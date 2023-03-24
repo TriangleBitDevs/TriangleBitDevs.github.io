@@ -6,3 +6,4 @@ menu:
   - {name: 'Events', url: '/events'}
   - {name: 'Meetup', url: 'https://www.meetup.com/triangle-bitdevs/', external: true}
   - {name: 'Twitter', url: 'https://twitter.com/TriangleBitDevs', external: true}
+  - {name: '丰', url: '/kebab-symbol-considered-harmful'}
