@@ -34,7 +34,7 @@ Please note the meeting location at 4801 Glenwood Ave suite 200 in Raleigh, righ
 #### OP_VAULT
 [Very exciting](https://i.imgur.com/y1cnodp.gif) news for covenant fans! [James O'Beirne](https://github.com/jamesob) has released a new update to his `OP_VAULT` proposal that incorporates techniques from [TLUV](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2021-September/019419.html), making the protocol more flexible and simpler to use. Additionally, O'Beirne proposes including [OP_CTV](https://bitcoinops.org/en/topics/op_checktemplateverify/) as a first-class citizen in this proposal.
 
-If you're interested in the technical details, you can read the full [BIP](https://github.com/jamesob/bips/blob/jamesob-23-02-opvault/bip-0345.mediawiki) on O'Beirne's Github page. Alternatively, check out this fantastic [Twitter thread](https://twitter.com/jamesob/status/1639019107432513537) by O'Beirne for a quick summary. Don't miss out on the latest developments in Bitcoin's covenants!"
+If you're interested in the technical details, you can read the full [BIP](https://github.com/jamesob/bips/blob/jamesob-23-02-opvault/bip-0345.mediawiki) on O'Beirne's Github page. Alternatively, check out this fantastic [Twitter thread](https://twitter.com/jamesob/status/1639019107432513537) by O'Beirne for a quick summary. Don't miss out on the latest developments in Bitcoin's covenants!
 
 <br>
 
