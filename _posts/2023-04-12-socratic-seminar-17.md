@@ -70,5 +70,4 @@ After three long years the route blinding proposal from [Bastien Teinturier](htt
 
 # Miscellaneous
 - [Introducing Floresta, a Utreexo-powered Electrum Server implementation](https://medium.com/vinteum-org/introducing-floresta-an-utreexo-powered-electrum-server-implementation-60feba8e179d)
-- [Newly Formed ZeroSync Association Brings Zero-Knowledge Proofs to Bitcoin](https://www.coindesk.com/tech/2023/03/28/newly-formed-zerosync-association-brings-zero-knowledge-proofs-to-bitcoin/)
-
+- [How ZeroSync Hopes To Reduce The Costs Of Validating Bitcoin Nodes](https://bitcoinmagazine.com/technical/zerosync-reduces-bitcoin-node-validation)
