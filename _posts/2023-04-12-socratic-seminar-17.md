@@ -71,3 +71,4 @@ After three long years the route blinding proposal from [Bastien Teinturier](htt
 # Miscellaneous
 - [Introducing Floresta, a Utreexo-powered Electrum Server implementation](https://medium.com/vinteum-org/introducing-floresta-an-utreexo-powered-electrum-server-implementation-60feba8e179d)
 - [How ZeroSync Hopes To Reduce The Costs Of Validating Bitcoin Nodes](https://bitcoinmagazine.com/technical/zerosync-reduces-bitcoin-node-validation)
+- [ord indexer bug lead to 1200 "missed" inscriptions](https://github.com/casey/ord/issues/2000)
