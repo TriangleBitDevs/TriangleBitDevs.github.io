@@ -2,7 +2,7 @@
 layout: post
 type: socratic
 title: "Socratic Seminar 18"
-meetup: https://www.meetup.com/triangle-bitdevs/events/PLACEHOLDER/
+meetup: https://www.meetup.com/triangle-bitdevs/events/293826265/
 ---
 
 We will start with introductions, some basic ground rules, and jump into technical discussions. We will cover aspects of the bitcoin protocol, new research developments, recent news, and
