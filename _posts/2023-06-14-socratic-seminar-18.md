@@ -24,6 +24,12 @@ Please note the meeting location at 4801 Glenwood Ave suite 200 in Raleigh, righ
 
 # Bitcoin Core
 
+#### SegWit
+Join us for the first part of our three-part series on SegWit, also known as segregated witness. To gain a clear understanding of Taproot, it's essential to comprehend the fundamentals of SegWit.
+
+In this first part, we'll delve into the necessary background material that led to SegWit. The following two parts will focus more on the technical aspects of SegWit version 1 and version 2. Don't miss out on this opportunity to enhance your knowledge of Bitcoin's underlying technologies!
+
+
 #### OP_VAULT
 [Very exciting](https://i.imgur.com/y1cnodp.gif) news for covenant fans! [James O'Beirne](https://github.com/jamesob) has released a new update to his `OP_VAULT` proposal that incorporates techniques from [TLUV](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2021-September/019419.html), making the protocol more flexible and simpler to use. Additionally, O'Beirne proposes including [OP_CTV](https://bitcoinops.org/en/topics/op_checktemplateverify/) as a first-class citizen in this proposal.
 
