@@ -41,7 +41,7 @@ Bitcoin Core developer [Josie](https://iris.to/npub1uaj9phu5lpxpczm3vaayt46m0yv0
 # Ecash
 
 #### A Proof of Liabilities Scheme for Ecash Mints
-[Calle](https://twitter.com/callebtc/) has released a Proof of Liabilities proposal for ecash mints. It is a trustless way to prove that a mint has not issued more ecash tokens than it has in on-chain bitcoin. The proposal relies on the need for an ecash mint to periodically rotate the private key it uses to create new ecash tokens. Each key rotation period is called an "epoch" and  Calle describes a "periodic bank run" where users of the mint can compare their burned ecash tokens against a list that the mint publishes for all past epochs on a regular schedule.
+[Calle](https://twitter.com/callebtc/) has released a [Proof of Liabilities](https://gist.github.com/callebtc/ed5228d1d8cbaade0104db5d1cf63939) proposal for ecash mints. It is a trustless way to prove that a mint has not issued more ecash tokens than it has in on-chain bitcoin. The proposal relies on the need for an ecash mint to periodically rotate the private key it uses to create new ecash tokens. Each key rotation period is called an "epoch" and  Calle describes a "periodic bank run" where users of the mint can compare their burned ecash tokens against a list that the mint publishes for all past epochs on a regular schedule.
 
 Calle has [stated on twitter](https://twitter.com/callebtc/status/1655617089590243335) that he intends to develop this protocol for use in [Cashu](https://cashu.space/).
 
