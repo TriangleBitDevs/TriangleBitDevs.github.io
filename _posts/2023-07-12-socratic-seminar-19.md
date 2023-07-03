@@ -1,0 +1,51 @@
+---
+layout: post
+type: socratic
+title: "Socratic Seminar 19"
+meetup: https://www.meetup.com/triangle-bitdevs/events/PLACEHOLDER/
+---
+
+We will start with introductions, some basic ground rules, and jump into technical discussions. We will cover aspects of the bitcoin protocol, new research developments, recent news, and
+software developments.
+
+Please note the meeting location at 4801 Glenwood Ave suite 200 in Raleigh, right above Fifth Third Bank.
+
+# Announcements
+
+- no pictures or recordings
+- chatham house rules
+- don't be a dick
+- Rust for Bitcoiners - biweekly online meetup
+- Hack Day - unstructured monthly in-person meetup for bitcoin builders
+- thank you to our sponsor [Lolli](https://preview.page.link/link.lolli.com/3T8iPrE5gPKVDc5i7)
+- introductions
+
+<br><br>
+
+# Bitcoin Core
+
+#### Silent Payments BIP
+Bitcoin Core developer [Josie](https://iris.to/npub1uaj9phu5lpxpczm3vaayt46m0yv0pduxzy7z6quwd2uggxue7fmqx9665u) and Bitcoin Sorcerer [Ruben Somsen](https://twitter.com/SomsenRuben) have announced a [proposed BIP](https://github.com/bitcoin/bips/blob/f1c188faa55adb84ea0972dd451f319355c2860c/bip-0000.mediawiki) for Silent Payments, which is a way to privately and securely send bitcoin to a publicly announced address. The proposal offers to solve many of the gaps and privacy footguns inherent in [BIP47](https://en.bitcoin.it/wiki/BIP_0047) Reusable Payment Codes proposal. There's no free lunch, though. The payment recipient must scan every bitcoin transaction to identify incoming payments. This BIP proposal also shipped with a [working implementation](https://github.com/bitcoin/bitcoin/pull/27827) in bitcoin core!
+
+# Ecash
+
+#### A Proof of Liabilities Scheme for Ecash Mints
+[Calle](https://twitter.com/callebtc/) has released a [Proof of Liabilities](https://gist.github.com/callebtc/ed5228d1d8cbaade0104db5d1cf63939) proposal for ecash mints. It is a trustless way to prove that a mint has not issued more ecash tokens than it has in on-chain bitcoin. The proposal relies on the need for an ecash mint to periodically rotate the private key it uses to create new ecash tokens. Each key rotation period is called an "epoch" and  Calle describes a "periodic bank run" where users of the mint can compare their burned ecash tokens against a list that the mint publishes for all past epochs on a regular schedule.
+
+Calle has [stated on twitter](https://twitter.com/callebtc/status/1655617089590243335) that he intends to develop this protocol for use in [Cashu](https://cashu.space/).
+
+#### Nostr, Cashu, and Nostr Cash
+The most popular Android nostr client, [Amethyst](https://github.com/vitorpamplona/amethyst) has added support to [redeem cashu tokens](https://github.com/vitorpamplona/amethyst/pull/471) from within the app. It seems like maybe [ecash season is approaching](https://nostr.build/i/72e5b37b69d3ca848586ee0e825b2b74962503c4df64bf2eb7c207a4c131bcdc.jpg). Meanwhile, [Ben Arc](https://coracle.social/people/npub1c878wu04lfqcl5avfy3p5x83ndpvedaxv0dg7pxthakq3jqdyzcs2n8avm/notes) of [LNBits](https://lnbits.com/) fame has proposed [NIP-88](https://github.com/nostr-protocol/nips/pull/627) a protocol for non-blinded nostr cash tokens. Discussion on this PR has been limited but judging from the emoji responses, this is not a popular proposal.
+
+# Zero Knowledge
+
+#### Zerosync
+[ZeroSync](https://zerosync.org/) is a new project that aims to bring zero knowledge proofs to bitcoin. Zerosync promises to enable extremely fast full node syncing with three new state proofs: headers chain, consensus rules (except witness data), and the full consensus rules (including witness data). They also plan to build a developer toolkit to enable a ton of new scaling and privacy improvements to many areas of bitcoin, including lightning. Zerosync has received sponsorship from StarkWare Industries, a software company building Ethereum ZK rollup system StarkNet. Bitcoin stands to benefit a great deal thanks to the cutting edge research performed on Ethereum.
+
+
+# Miscellaneous
+- [\[Lightning-dev\] Resizing Lightning Channels Off-Chain With Hierarchical Channels](https://lists.linuxfoundation.org/pipermail/lightning-dev/2023-March/003886.html)
+- [Munstr - An open source Musig privacy based wallet](https://github.com/0xBEEFCAF3/munstr)
+- [Mostro - A non custodial lightning network peer-to-peer exchange over nostr](https://github.com/MostroP2P/mostro)
+- [Ledger Recover Security implications (a thread)](https://www.nobsbitcoin.com/ledger-to-launch-kyc-cloud-based-recovery-service/)
+
