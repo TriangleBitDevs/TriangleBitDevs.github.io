@@ -17,7 +17,7 @@ Please note the meeting location at 4801 Glenwood Ave suite 200 in Raleigh, righ
 - don't be a dick
 - Rust for Bitcoiners - biweekly online meetup
 - Hack Day - unstructured monthly in-person meetup for bitcoin builders
-- thank you to our sponsor [Lolli](https://preview.page.link/link.lolli.com/3T8iPrE5gPKVDc5i7)
+- thank you to our sponsor [Lolli](https://www.lolli.com/)
 - introductions
 
 <br><br>
