@@ -31,7 +31,7 @@ Bitcoin Core developer [Josie](https://iris.to/npub1uaj9phu5lpxpczm3vaayt46m0yv0
 
 #### Face Melting Eclair Release
 
-[Eclair v0.9.0](https://github.com/ACINQ/eclair/blob/master/docs/release-notes/eclair-v0.9.0.md) shipped with support for [dual-funded channels](https://bitcoinops.org/en/topics/dual-funding/), [splicing](https://bitcoinops.org/en/topics/splicing/), and [bolt12](https://bitcoinops.org/en/topics/offers/). This ACINQ [blog post](https://acinq.co/blog/phoenix-splicing-update) explains all the benefits nicely. It is unclear at this time whether the lightning network will be able to scale enough to accomodate such high levels of unadulterated magnificence. 🫠
+[Eclair v0.9.0](https://github.com/ACINQ/eclair/blob/master/docs/release-notes/eclair-v0.9.0.md) shipped with support for [dual-funded channels](https://bitcoinops.org/en/topics/dual-funding/), [splicing](https://bitcoinops.org/en/topics/splicing/), and [bolt12](https://bitcoinops.org/en/topics/offers/). This ACINQ [blog post](https://acinq.co/blog/phoenix-splicing-update) nicely explains how this benefits Phoenix users. It is unclear at this time whether the lightning network will be able to scale enough to accomodate such high levels of unadulterated magnificence. 🫠
 
 # Ecash
 
