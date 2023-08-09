@@ -43,7 +43,7 @@ In their latest [blog post](https://acinq.co/blog/securing-a-100M-lightning-node
 # Security
 
 #### Milk Sad Disclosure
-Security researchers have uncovered a [critical vulnerability](https://milksad.info/) in the Libbitcoin Explorer wallet tool, bx. 3.x versions of the library use an insufficient source of entropy to generate new wallet private keys. The vulnerability was discovered following a string of mysterious wallet thefts. This tool was recommended for use in generating a new wallet in [Appendix A](https://github.com/bitcoinbook/bitcoinbook/blob/develop/appdx-bx.asciidoc#examples-of-bx-command-use) of Mastering Bitcoin.
+Security researchers have uncovered a [critical vulnerability](https://milksad.info/) in the Libbitcoin Explorer wallet tool, bx. 3.x versions of the library use an insufficient source of entropy to generate new wallet private keys. The vulnerability was discovered following a string of mysterious wallet thefts. This tool was highlighted in [Appendix A](https://github.com/bitcoinbook/bitcoinbook/blob/develop/appdx-bx.asciidoc#examples-of-bx-command-use) of Mastering Bitcoin.
 
 
 # Miscellaneous
