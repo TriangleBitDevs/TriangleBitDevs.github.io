@@ -1,11 +1,11 @@
-# BitDevs NYC
+# Triangle BitDevs
 
 Simple Jekyll site for hosting all of the links from meetups past and future.
 
 ## Development
 
 You'll need [Ruby & Jekyll](https://jekyllrb.com/docs/installation/) to run the
-site locally. Once they're setup:
+site locally. For newer macs [these instructions](https://livid.v2ex.com/guides/2023/01/03/jekyll-macos-ventura.html) work better. Once they're setup:
 
 * Clone the repository and go into the directory
 * Run `bundle install`
