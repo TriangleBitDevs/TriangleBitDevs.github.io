@@ -19,7 +19,7 @@ As a reminder, the ground rules of BitDevs are as follow:
 These rules exist so that BitDevs participants can speak freely within the event.
 
 ### Splicing merged into CLN
-Dusty Daemon's [year long PR](https://github.com/ElementsProject/lightning/pull/5675) to enable [channel splicing](https://bitcoinops.org/en/topics/splicing/) in CLN has finally been merged into master! Hopefully this means users will soon be able to resize lightning channels with no channel downtime or disruption in payment flows. Holla! 🙌
+[Dusty Daemon](https://github.com/ddustin)'s [year long PR](https://github.com/ElementsProject/lightning/pull/5675) to enable [channel splicing](https://bitcoinops.org/en/topics/splicing/) in CLN has finally been merged into master! Hopefully this means users will soon be able to resize lightning channels with no channel downtime or disruption in payment flows. Holla! 🙌
 
 ### 10101 is building DLCs on Lightning
 A new company called [10101](https://10101.finance) (pronounced ten-ten-one) is building DLC capability into lightning. In this [three](https://10101.finance/blog/dlc-to-lightning-part-1/) [part](https://10101.finance/blog/dlc-to-lightning-part-2/) [blog](https://10101.finance/blog/dlc-to-lightning-part-3/) series they explain what DLCs are, how they are enabled on lightning, and how they use virtual channels to accomplish this in practice.
