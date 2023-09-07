@@ -39,3 +39,23 @@ In this blog post [Tony Giorgio](https://iris.to/npub1t0nyg64g5vwprva52wlcmt7fkd
 ### [Lightning-dev] Practical PTLCs, a little more concretely
 
 Greg Sanders, aka [@theinstagibbs](https://twitter.com/theinstagibbs) posted to the mailing list with an initial proposal for a [PTLC](https://bitcoinops.org/en/topics/ptlc/) implementation. In the gist he considers many potential use cases: single-sig adaptors vs MuSig2, async updates vs sync aka "simplified updates", amount of message re-ordering, and futuristic updates to mempool/consensus (including [APO](https://bitcoinops.org/en/topics/sighash_anyprevout/)).
+
+### [Bitcoin Optech] LND Adds Support for Simple Taproot Channels
+
+[LND v0.17.0-beta.rc2](https://github.com/lightningnetwork/lnd/releases/tag/v0.17.0-beta.rc2) is a release candidate for the next major version of this popular LN node implementation. A major new experimental feature planned for this release, which could likely benefit from testing, is support for “simple taproot channels”.
+
+### [Bitcoin Optech] LDK Merges BOLT 12 Outbound PaymentId
+
+[LDK #2468](https://github.com/lightningdevkit/rust-lightning/issues/2468) allows users to provide a payment_id which is encrypted in an invoice request’s metadata field. LDK checks the metadata in received invoices and will only pay if it recognizes the id and hasn’t already paid another invoice for it. This PR is part of [LDK’s work](https://github.com/lightningdevkit/rust-lightning/issues/1970) toward implementing [BOLT12](https://bitcoinops.org/en/topics/offers/).
+
+### Rusty's Revocation Secret Threshold Trick
+
+[Arik Sosman](https://twitter.com/arikaleph) wrote up a gist explaining a [novel technique](https://gist.github.com/arik-so/2d228c3046c65ce2f73ee9c9ac819ce0) proposed by [Rusty Russell](https://github.com/rustyrussell) that may be useful in revoking the channel state of a channel controlled by a 2/3 threshold multisig.
+
+### Results of Major Technical Investigations for Storm-0558 Key Acquisition 
+
+In this [investigation](https://msrc.microsoft.com/blog/2023/09/results-of-major-technical-investigations-for-storm-0558-key-acquisition/), Microsoft determined that a China-Based threat actor, Storm-0558, exploited a Microsoft account consumer key, obtained from a system crash dump in 2021, to access OWA and Outlook.com. Microsoft's investigation revealed system vulnerabilities and oversights, prompting the company to implement enhanced security measures.
+
+### Taproot Assets: Issuing Assets on Bitcoin
+
+The good folks at [Voltage](https://voltage.cloud/) have published this well written and accessible [blog post](https://voltage.cloud/blog/lightning-network-use-cases/taproot-assets-on-bitcoin-and-lightning-network/) discussing [Taproot Assets](https://docs.lightning.engineering/the-lightning-network/taproot-assets)--how they work, how they leverage lightning's network effects, and introduce new liquidity management requirements and business use cases for node runners.
