@@ -38,7 +38,7 @@ In this [blog post](https://blog.mutinywallet.com/enhanced-lightning-privacy-for
 
 ### [Lightning-dev] Practical PTLCs, a little more concretely
 
-Greg Sanders, aka [@theinstagibbs](https://twitter.com/theinstagibbs) posted to the mailing list with an initial proposal for a [PTLC](https://bitcoinops.org/en/topics/ptlc/) implementation. In the gist he considers many potential use cases: single-sig adaptors vs MuSig2, async updates vs sync aka "simplified updates", amount of message re-ordering, and futuristic updates to mempool/consensus (including [APO](https://bitcoinops.org/en/topics/sighash_anyprevout/)).
+Greg Sanders, aka [@theinstagibbs](https://twitter.com/theinstagibbs) wrote a [mailing list post](https://lists.linuxfoundation.org/pipermail/lightning-dev/2023-September/004088.html) with an initial proposal for a [PTLC](https://bitcoinops.org/en/topics/ptlc/) implementation. In the gist he considers many potential use cases: single-sig adaptors vs MuSig2, async updates vs sync aka "simplified updates", amount of message re-ordering, and futuristic updates to mempool/consensus (including [APO](https://bitcoinops.org/en/topics/sighash_anyprevout/)).
 
 ### [Bitcoin Optech] LND Adds Support for Simple Taproot Channels
 
