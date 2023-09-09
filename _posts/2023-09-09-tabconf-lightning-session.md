@@ -34,7 +34,7 @@ Greenlight, a new non-custodial lightning hosting infrastructure project, has [e
 
 ### How the Voltage LSP Enhances Privacy for Mutiny Wallet Users
 
-In this blog post [Tony Giorgio](https://iris.to/npub1t0nyg64g5vwprva52wlcmt7fkdr07v5dr7s35raq9g0xgc0k4xcsedjgqv) explains how [Mutiny Wallet](https://www.mutinywallet.com/) leverages the [Voltage LSP](https://voltage.cloud/blog/voltage-announcements/introducing-flow-v2/) to enhance the privacy of their wallet users using just-in-time lightning channels to enable a VPN-like architecture for lightning payments.
+In this [blog post](https://blog.mutinywallet.com/enhanced-lightning-privacy-for-mutiny-users/) [Tony Giorgio](https://iris.to/npub1t0nyg64g5vwprva52wlcmt7fkdr07v5dr7s35raq9g0xgc0k4xcsedjgqv) explains how [Mutiny Wallet](https://www.mutinywallet.com/) leverages the [Voltage LSP](https://voltage.cloud/blog/voltage-announcements/introducing-flow-v2/) to enhance the privacy of their wallet users using just-in-time lightning channels to enable a VPN-like architecture for lightning payments.
 
 ### [Lightning-dev] Practical PTLCs, a little more concretely
 
