@@ -30,7 +30,11 @@ Bitcoin Core contributor [Ishaana Misra](https://twitter.com/ishaanamisra) dropp
 
 #### AssumeUTXO and BIP 324 merged 🚀
 
-After 4 long years [AssumeUTXO](https://bitcoinops.org/en/topics/assumeutxo/) has been [merged]( https://github.com/bitcoin/bitcoin/pull/27596#event-10530618233) into the Bitcoin Core main repo. If that wasn't exciting enough, [BIP 324](https://bitcoinops.org/en/topics/v2-p2p-transport/), encrypted P2P transport, was [merged]( https://github.com/bitcoin/bitcoin/pull/28331#event-10535599397) one day later. The sound of nerds rejoicing was reportedly heard reverberating for days throughout the halls of the Bitcoin Core cabal's secret citadel.
+After 4 long years [AssumeUTXO](https://bitcoinops.org/en/topics/assumeutxo/) has been [merged]( https://github.com/bitcoin/bitcoin/pull/27596#event-10530618233) into the Bitcoin Core main repo. If that wasn't exciting enough, [BIP 324](https://bitcoinops.org/en/topics/v2-p2p-transport/), encrypted P2P transport, was [merged]( https://github.com/bitcoin/bitcoin/pull/28331#event-10535599397) one day later. The sound of nerds rejoicing was reportedly heard reverberating for days throughout the secret citadel of the Bitcoin Core cabal.
+
+#### Musig2 Descriptor and PSBT BIPs
+
+[Andrew Chow](https://github.com/achow101) proposed two BIPs to add [Musig2](https://bitcoinops.org/en/topics/musig/#musig2) support to wallet [descriptors](https://bitcoinops.org/en/topics/output-script-descriptors/) and [PSBTs](https://bitcoinops.org/en/topics/psbt/). The [Musig2 PSBT BIP](https://github.com/achow101/bips/blob/musig2-psbt/bip-musig2-psbt.mediawiki) proposes new fields and has a brief description of the new concepts and additional rounds of communication entailed with Musig2. The [MuSig2 descriptor BIP](https://github.com/achow101/bips/blob/musig2-descriptors/bip-musig2-descriptors.mediawiki) adds a new key expression `musig()` usable only inside of a `tr()` expression.
 
 # Lightning
 
