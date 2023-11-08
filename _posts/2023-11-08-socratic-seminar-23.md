@@ -40,16 +40,16 @@ Mailing list contributor John Law [proposes](https://lists.linuxfoundation.org/p
 
 #### Replacement Cycling Attack
 
-A new LN attack dropped to pwn your channel peers
-https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2023-October/021999.html
-https://medium.com/@satsbridge/lightning-replacement-cycling-attack-explained-45636e41bc6f
+Bitcoin and Lightning protocol researcher [Antoine Riard](https://github.com/ariard) dropped a [new lightning attack](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2023-October/021999.html) on the mailing list. The attack requires two malicious LN nodes on either side of a routing node to withhold the HTLC preimage from the victim node and continually replace the victim's channel close transaction in the mempool until the timelock expires. Every LN node implementation has implemented fixes to mitigate the attack, but there is currently no way to completely eliminate the risk. [SatsBridge](https://twitter.com/satsbridge) has published an [article](https://medium.com/@satsbridge/lightning-replacement-cycling-attack-explained-45636e41bc6f) explaining the attack with lots of helpful diagrams.
 
-#### Privacy
+# Privacy
 
-PR to add payjoin receive to Mutiny Wallet
-https://github.com/MutinyWallet/mutiny-node/pull/820
+#### Payjoin Receive in Mutiny Wallet
 
-#### Miscellaneous
+[Dan Gould](https://bitgould.com/) has opened a draft PR to [add payjoin receive](https://github.com/MutinyWallet/mutiny-node/pull/820) to Mutiny Wallet. This exciting development has the potential to improve the best [lightning privacy wallet](https://www.mutinywallet.com/) with [payjoin](https://bitcoinops.org/en/topics/payjoin/), an opportunistic privacy technique that obfuscates the on-chain transaction graph with every payment.
 
-Durabit: A Bitcoin-native Incentive Mechanism for Data Distribution
-https://github.com/4de67a207019fd4d855ef0a188b4519c/Durabit/blob/main/Durabit%20-%20A%20Bitcoin-native%20Incentive%20Mechanism%20for%20Data%20Distribution.pdf
+# Miscellaneous
+
+#### Durabit: A Bitcoin-native Incentive Mechanism for Data Distribution
+
+[Some guy](mailto:someguy@durabit.org) released a white paper describing [Durabit](https://github.com/4de67a207019fd4d855ef0a188b4519c/Durabit/blob/main/Durabit%20-%20A%20Bitcoin-native%20Incentive%20Mechanism%20for%20Data%20Distribution.pdf), an incentive-compatible decentralized solution to the data availability problem. It uses a bitcoin bond to reward participants for seeding a bittorrent file. The protocol relies on two distinct parties to accomplish this: the bond issuer creates a series of signed bitcoin transactions payable to a [chaumian ecash mint](https://thebitcoinmanual.com/articles/chaumian-ecash-bitcoin/), which is in charge of compensating torrent seeders using the bond funds. The bond issuer encodes the bittorrent magnet link into an OP_RETURN output and is capable of revoking the bond by double spending the next presigned transaction. Not only is the author an anonymous nym, but they dropped the whitepaper via an [ordinal inscription](https://ordinals.com/content/1e64e8a28ffec452661fa9a864454931806d35fec302ba2dcd42a900b6ca46c9i0). Cypherpunk af. 🤘
