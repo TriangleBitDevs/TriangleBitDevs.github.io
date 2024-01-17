@@ -60,3 +60,4 @@ In a totally unrelated development [some other guy](https://twitter.com/rot13max
 - [Overview of Cluster Mempool](https://delvingbitcoin.org/t/an-overview-of-the-cluster-mempool-proposal/393/1)
 - [Braidpool](https://github.com/braidpool/braidpool/blob/main/docs/braidpool_spec.md)
 - [covenants.info](https://covenants.info/) cool site comparing the many covenant proposals. There seem to be some [open](https://twitter.com/Polyd_/status/1746575634170613824) [questions](https://twitter.com/brian_trollz/status/1746573443393273950) about the veracity of the information contained therein.
+- [Bitcointalk thread](https://bitcointalk.org/index.php?topic=2162.0) discussing the introduction of 'standardness' rules and the (de)merits of storing data on the blockchain
