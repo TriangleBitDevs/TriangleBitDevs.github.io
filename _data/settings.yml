@@ -4,6 +4,6 @@ tagline: 'BitDevs is a community for those interested in discussing and particip
 menu:
   - {name: 'About', url: '/about'}
   - {name: 'Events', url: '/events'}
-  - {name: 'Meetup', url: 'https://www.meetup.com/triangle-bitdevs/', external: true}
-  - {name: 'Twitter', url: 'https://twitter.com/TriangleBitDevs', external: true}
   - {name: 'Nostr', url: 'https://njump.me/npub18z4n70qxqv40xef4je7fd0zya462gmkhvf2eax695f6sfgrk9yvq55lrpv', external: true}
+  - {name: 'Twitter', url: 'https://twitter.com/TriangleBitDevs', external: true}
+  - {name: 'Meetup', url: 'https://www.meetup.com/triangle-bitdevs/', external: true}
