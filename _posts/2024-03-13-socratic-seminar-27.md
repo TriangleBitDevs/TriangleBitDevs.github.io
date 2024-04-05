@@ -2,6 +2,7 @@
 layout: post
 type: socratic
 title: "Socratic Seminar 27"
+nostr: https://www.flockstr.com/event/naddr1qqyxvcfcv9nrwwfeqy8hwumn8ghj7mn0wd68ytnddaksygpc4vlncpsr9tek2dvk0jttc38dwjjxa4mz2k0fk3dzw5z2qa3frqpsgqqq0jesc22v67
 meetup: https://www.meetup.com/triangle-bitdevs/events/299551871/
 ---
 
