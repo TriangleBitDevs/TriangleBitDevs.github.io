@@ -37,6 +37,7 @@ Please note the meeting location at Crafty Beer, Wine, and Spirits near Five Poi
 - [Greg Maxwell post with original claim of covert asic boost](https://jimmysong.medium.com/examining-bitmains-claims-about-asicboost-1d61118c678d)
 - [Mempool.space research report on empty blocks](https://research.mempool.space/empty-block-report/)
 - [Classic Jimmy Song blog post on covert ASICboost](https://jimmysong.medium.com/examining-bitmains-claims-about-asicboost-1d61118c678d)
+- [https://stratum.work/](https://stratum.work/)
 
 # Ecash
 - Mutiny launches [Harbor](https://blog.mutinywallet.com/harbor/), a desktop ecash wallet
