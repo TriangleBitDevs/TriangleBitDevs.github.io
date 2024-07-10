@@ -25,6 +25,7 @@ Please note the meeting location at Crafty Beer, Wine, and Spirits near Five Poi
 
 # Lightning
 - Strike launches [BOLT12 playground](https://strike.me/blog/bolt12-playground/) docker stack
+- Phoenix Wallet adds [BOLT12 support](https://www.nobsbitcoin.com/phoenix-wallet-v2-3-1-phoenixd-v0-2-0/)!
 
 # Mining
 - [Block's first ASIC customer](https://investors.block.xyz/investor-news/news-details/2024/Blocks-New-Bitcoin-Mining-Chip-to-Be-Part-of-an-Ongoing-Project-With-Core-Scientific-to-Decentralize-Mining-Hardware/default.aspx)
