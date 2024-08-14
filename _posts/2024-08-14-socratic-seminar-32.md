@@ -36,9 +36,13 @@ Please note the meeting location at Mad Science of the Triangle in Cary.
 - [Dark Skippy](https://darkskippy.com/) - writeup of an attack where a malicious signing device firmware can exfiltrate private keys using non-random nonce selection during transaction signing
 - read the [twitter thread](https://x.com/utxoclub/status/1820520960476561825) for a TL;DR
 
+# Mining
+- [a bitaxe found a block](https://x.com/bitentrepreneur/status/1816173826754929125)
+- [Ocean](https://ocean.xyz) building their own [miner-side template construction](https://x.com/boerst/status/1821211209510662600) mechanism. Not using Stratum V2
+- [HODLTarantula](https://x.com/HodlTarantula) is planning to launch [HT Pool](https://htpool.io/). Don't like it? GFY
+
 # Miscellaneous
 - Maelstrom launches a [bitcoin grant program](https://maelstrom.fund/bitcoin-grant-program/)
 - [Proton Wallet](https://proton.me/blog/proton-wallet-launch) - Send bitcoin via email
 - [Mutiny Wallet is Shutting Down](https://blog.mutinywallet.com/mutiny-wallet-is-shutting-down/)
-- [a bitaxe found a block](https://x.com/bitentrepreneur/status/1816173826754929125)
 - Satoshi Pacioli offers [free tax services](https://satoshipacioli.com/satoshi-pacioli-accounting-announces-free-tax-services-for-open-source-bitcoin-developers/) for OSS bitcoin devs
