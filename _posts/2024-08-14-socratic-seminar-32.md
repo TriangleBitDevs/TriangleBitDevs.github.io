@@ -29,8 +29,7 @@ Please note the meeting location at Mad Science of the Triangle in Cary.
 - [Stable Channels](https://stablechannels.com/)
 
 # Ecash
-- [Fedi main net release](https://www.fedi.xyz/blog/fedi-announces-launch-of-world-s-first-community-superapp)
-- The Fedi announcement comes with a backdated [commitment](https://www.fedi.xyz/blog/on-may-the-fourth-fedi-went-open-source-here-s-why) to fully open source the Fedi app
+- [Fedi main net release](https://www.fedi.xyz/blog/fedi-announces-launch-of-world-s-first-community-superapp). The Fedi announcement comes with a backdated [commitment](https://www.fedi.xyz/blog/on-may-the-fourth-fedi-went-open-source-here-s-why) to fully open source the Fedi app
 - [Boardwalk Cash](https://boardwalkcash.com/) is a new stable dollar ecash wallet.
 
 # Security
