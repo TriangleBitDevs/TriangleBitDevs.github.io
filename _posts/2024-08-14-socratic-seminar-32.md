@@ -46,3 +46,4 @@ Please note the meeting location at Mad Science of the Triangle in Cary.
 - [Proton Wallet](https://proton.me/blog/proton-wallet-launch) - Send bitcoin via email
 - [Mutiny Wallet is Shutting Down](https://blog.mutinywallet.com/mutiny-wallet-is-shutting-down/)
 - Satoshi Pacioli offers [free tax services](https://satoshipacioli.com/satoshi-pacioli-accounting-announces-free-tax-services-for-open-source-bitcoin-developers/) for OSS bitcoin devs
+- Casa now supports [yubikey](https://blog.casa.io/secure-your-bitcoin-with-yubikey/) as a blind signer
