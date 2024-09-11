@@ -41,6 +41,7 @@ Please note the meeting location at Mad Science of the Triangle in Cary.
 # Mining
 - [Bitcoin Mining Development Mailing List](https://groups.google.com/u/0/g/bitcoinminingdev/c/97fkfVmHWYU)
 - [PPLNS with Job Declaration](https://delvingbitcoin.org/t/pplns-with-job-declaration/1099)
+- Stratum v2 [Auditor Role](https://github.com/stratum-mining/stratum/discussions/1052)
 
 # Miscellaneous
 - [Floresta v0.6.0](https://github.com/vinteumorg/Floresta/releases/tag/0.6.0)
