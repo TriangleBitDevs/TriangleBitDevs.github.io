@@ -29,7 +29,7 @@ Please note the meeting location at Mad Science of the Triangle in Cary.
 - [Breez SDK](https://github.com/breez)
 
 # Ark
-- [ARK v0.2](https://arkdev.info/blog/ark-release-v0.2/) Covenant-less, Offline Payments, Client SDKs, and MutinyNet Support... Oh My!
+- [ARK v0.2](https://arkdev.info/blog/ark-release-v0.2/) Covenant-less, Offline Payments, Client SDKs, and MutinyNet Support... [Oh My!](https://media.tenor.com/svFFJHFmLccAAAAC/oh-my-george-takei.gif)
 
 # Ecash
 - [NIP-60](https://github.com/nostr-protocol/nips/pull/1369/files#diff-18ad4ae4811a1656d824320ea36e62689115e3d9c8cdc094facd39a41b55edb5) is a nostr protocol proposal to store cashu ecash tokens in nostr relays. Callebtc, creator of cashu, [says](https://njump.me/nevent1qqst7d9ugdfmgcl4zhqxhj2p6n0alqtdqnl6qnkq0uzex0zxw6yglpcpp4mhxue69uhkummn9ekx7mqpz3mhxue69uhhyetvv9ujuerpd46hxtnfdupzq5xeflpdskqvdq4swxj59793uvdzqzc9pzatjk3nhmcg2h0js8tr8syt5r) it is implemented in 6 wallets and it solves a major wallet challenge he anticipated for cashu. [Noice!](https://c.tenor.com/zRbvwdWpy3UAAAAC/tenor.gif)
