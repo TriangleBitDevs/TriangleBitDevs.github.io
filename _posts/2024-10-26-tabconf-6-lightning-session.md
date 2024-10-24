@@ -12,19 +12,36 @@ and other sources.
 This event will take place at TABConf in Atlanta.
 
 
-### Breez SDK adds support for Nodeless (Liquid) and Native (Greenlight) Implementations
+## Topics
 
-The boys at Breez have done it again! The latest SDK refresh adds a 'nodeless' implementation that stores your balance on the Liquid sidechain. It uses a swap service to send and receive bitcoin or lightning, a model pioneered by Aqua Wallet. In addition, the Breez SDK offers a native lightning implementation built using the lightweight self-custodial Greenlight service for a pure lightning architecture that makes no compromises on the trust assumptions of bitcoin and lightning.
+#### vnprc
 
-Check out the Blockstream [blog announcement](https://blog.liquid.net/breez-releases-nodeless-sdk-implementation-powered-by-liquid/), Breez [github](https://github.com/breez), [nodeless sdk docs](https://sdk-doc-liquid.breez.technology/), or [native sdk docs](https://sdk-doc-greenlight.breez.technology/) for more information.
+- Breez SDK adds support for Nodeless: A Liquid Implementation
+  - Breez [github](https://github.com/breez)
+  - [nodeless sdk docs](https://sdk-doc-liquid.breez.technology/)
+  - [native sdk docs](https://sdk-doc-greenlight.breez.technology/)
+  - Blockstream [blog announcement](https://blog.liquid.net/breez-releases-nodeless-sdk-implementation-powered-by-liquid/)
+  - [StashPay](https://blog.onionmill.com/p/welcome-to-the-stashpay-testflight) is the first wallet to ship with it
+- [BOLT12 Offers Merged](https://github.com/lightning/bolts/pull/798)
+- [Building Bolt12 Into Strike](https://strike.me/blog/bolt12-offers/)
+- [Mutiny Wallet](https://blog.mutinywallet.com/mutiny-wallet-is-shutting-down/) and [10101](https://10101.finance/blog/10101-is-shutting-down/) are both shutting down. 😢
 
+#### nifty
+- [LN Summit 2024 Notes & Summary/Commentary](https://delvingbitcoin.org/t/ln-summit-2024-notes-summary-commentary/1198)
+- [Lightning Welder](https://github.com/alexlwn123/Lightning-Welder)
 
-### BOLT12 Offers Merged
+#### randy
+- [Spec for dual funding merged into BOLTs](https://github.com/lightning/bolts/pull/851)
+- [Bitcoin Core 28 wallet integration guide](https://bitcoinops.org/en/bitcoin-core-28-wallet-integration-guide/) discusses the impact of TRUC transactions on anchor outputs and the potential future deprecation of update_fee as well RBF pinning attacks.
 
-After four long years the BOLT12 Offers spec has been [merged](https://github.com/lightning/bolts/pull/798) into the BOLTs repo. Oh happy day! \o/
+### Research
+- [Hybrid Jamming Mitigation: Results and Updates](https://delvingbitcoin.org/t/hybrid-jamming-mitigation-results-and-updates/1147)
+- [SuperScalar: Laddered Timeout-Tree-Structured Decker-Wattenhofer Factories](https://delvingbitcoin.org/t/superscalar-laddered-timeout-tree-structured-decker-wattenhofer-factories/1143)
 
-BOLT12 offers enable a static lightning invoice that works by communicating invoice parameters through the lightning network using onion messages to anonymously retrieve a BOLT11 invoice. It also uses blinded paths to conceal the endpoint of the lightning route, enabling private and trustless lightning payments. The static address represents a massive usability improvement over ephemeral and interactive BOLT11 invoices. Routing messages through the lightning network removes the need to incorporate a different network stack and thus the need to run a web server, which is approach taken by the LNURL protocol to achieve the same goals.
-
-
-### Miscellaneous
-
+### PRs and Releases
+- [LND custom channels PR](https://github.com/lightningnetwork/lnd/pull/8960/files#diff-d8ed3157089b4fb9b6e61d523fd956f2adfd223fdc76d000112bb8e2dab96e8e)
+- [LDK rust-lightning v0.0.124 release notes](https://github.com/lightningdevkit/rust-lightning/releases/tag/v0.0.124)
+- [LND Gossip Messages](https://github.com/lightningnetwork/lnd/pull/8044)
+- [Eclair: Allow including routing hints when creating Bolt 11 invoice](https://github.com/ACINQ/eclair/pull/2909)
+- [LDK: Support paying static invoices](https://github.com/lightningdevkit/rust-lightning/pull/3140)
+- [LDK: Add the core functionality required to resolve Human Readable Names](https://github.com/lightningdevkit/rust-lightning/pull/3179)
