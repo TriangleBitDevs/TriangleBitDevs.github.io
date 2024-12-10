@@ -35,6 +35,7 @@ Please note the meeting location at Mad Science of the Triangle in Cary.
   - [Hashpool repo](https://github.com/vnprc/hashpool)
 - [printable ecash notes](https://brrr.gandlaf.com/)
 - [Bitcoin Design Guide adds an ecash section](https://bitcoin.design/guide/how-it-works/ecash/introduction/)
+- [Cashu Blog - Buckets of blind signatures](https://blog.cashu.space/buckets-of-blind-signatures/)
 
 # Covenants
 - [Un-FE’d Covenants: Char-ting a new path to Emulated Covenants via BitVM Integrity Checks](https://rubin.io/public/pdfs/unfedcovenants.pdf)
