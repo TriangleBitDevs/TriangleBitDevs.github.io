@@ -22,6 +22,7 @@ Please note the meeting location at Mad Science of the Triangle in Cary.
 
 # Lightning
 - [Payment Censorship in the Lightning Network Despite Encrypted Communication](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2024.12)
+- [Disclosure: irrevocable fees—stealing from LN using revoked commitment transactions](https://delvingbitcoin.org/t/disclosure-irrevocable-fees-stealing-from-ln-using-revoked-commitment-transactions/1314/1)
 
 # Mining
 - [Radpool - Syndicated Mining Pool](https://radpool.xyz)
