@@ -21,6 +21,8 @@ Please note the meeting location at Mad Science of the Triangle in Cary.
 - [Trivial QC signatures with clean upgrade path](https://gnusha.org/pi/bitcoindev/52f3bfc0-9446-4400-bf7a-7e38e5777c56@dashjr.org/T/#m8c9407a48d3358be40fb94ab512c3e72b95e17cc)
 - [Proposing a P2QRH BIP towards a quantum resistant soft fork](https://delvingbitcoin.org/t/proposing-a-p2qrh-bip-towards-a-quantum-resistant-soft-fork/956) 
 - [Taproot - Technical Explanation](https://learnmeabitcoin.com/technical/upgrades/taproot/)
+- Props to Lopp for Dropping Another Top Crop of Stats in the [Bitcoin 2024 Annual Review](https://blog.lopp.net/bitcoin-2024-annual-review/)
+- Bitcoin Optech [2024 Year-In-Review](https://bitcoinops.org/en/newsletters/2024/12/20/)
 
 # Anthropology
 - [The Social Layer: An Ethnography of Two Cryptocurrency Communities in the United States](https://etheses.lse.ac.uk/4775/)
