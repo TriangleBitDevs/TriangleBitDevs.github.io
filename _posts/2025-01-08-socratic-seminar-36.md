@@ -37,6 +37,7 @@ Please note the meeting location at Mad Science of the Triangle in Cary.
 # Privacy
 - new [rust joinstr implementation](https://github.com/pythcoiner/joinstr) from pythcoiner
 - [WabiSabi vulnerability fix](https://www.therage.co/vulnerability-wabisabi-coinjoin/)
+- [Bull Bitcoin implements BIP77 payjoin V2](https://www.bullbitcoin.com/blog/bull-bitcoin-wallet-payjoin)
 
 # Ark
 - [Bitcoin Virtual Channels: Bringing Instant Settlement To Ark](https://arkdev.info/blog/bitcoin-virtual-channels/)
