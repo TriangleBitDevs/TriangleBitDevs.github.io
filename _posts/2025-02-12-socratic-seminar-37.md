@@ -33,6 +33,9 @@ Please note the meeting location at Mad Science of the Triangle in Cary.
 - [rust joinstr implementation](https://github.com/pythcoiner/joinstr)
 - [Bull Bitcoin implements BIP77 payjoin V2](https://www.bullbitcoin.com/blog/bull-bitcoin-wallet-payjoin)
 
+# Lightning
+- [Pathfinding with LDK](https://lightningdevkit.org/blog/ldk-pathfinding/)
+
 # Ecash
 - [Discreet Log Contracts with Ecash Notes](https://conduition.io/cryptography/ecash-dlc/)
 
