@@ -7,7 +7,7 @@ meetup: https://lu.ma/c4nqct9w
 
 We will start with introductions, some basic ground rules, and jump into technical discussions. We will cover aspects of the bitcoin protocol, new research developments, recent news, and software developments.
 
-Please note the meeting location at Mad Science of the Triangle in Cary.
+Please note the meeting location at Fidelity Investments.
 
 # Announcements
 
