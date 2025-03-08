@@ -7,19 +7,7 @@ add_to_calendar: true
 start: 2025-03-12T23:00:00Z
 end: 2025-03-13T00:30:00Z
 location: "Fidelity Investments, 100 New Millennium Way, Durham, NC 27709"
-description: "BitDevs is a place for open discussion of the technical aspects of bitcoin and related protocols. Join us for Socratic Seminar 38!
-
-Please note the new location at Fidelity Investments. Please RSVP or email trianglebitdevs at protonmail dot com to confirm your attendance. You will be required to show ID to the security guard to gain admission but you do not need to RSVP in public.
-
-When you arrive at the venue please use Select Drive (not the traffic circle) to park in the yellow lot highlighted in this image and follow the sidewalk left to the 100 New Millennium Way Building 1 entrance to check in with Security.
-
-We will quickly go over the purpose and goals of this BitDevs chapter. Everyone will have a few moments to introduce themselves. Then we will begin discussion of the bitcoin protocol and recent technical developments.
-
-Special thank you to our sponsor Fidelity Investments!
-
-This group is the Raleigh/Durham fork of the BitDevs NYC meetup. BitDevs is a community for those interested in discussing and participating in the research and development of Bitcoin and the protocols that power it. You can be well versed with or new to the topics, all are welcome. Be advised: discussion will be technical.
-
-For more information on Triangle BitDevs please visit trianglebitdevs.org"
+description: "BitDevs is a place for open discussion of the technical aspects of bitcoin and related protocols. Be advised: discussion will be technical. Please RSVP or email trianglebitdevs at protonmail dot com to confirm your attendance. You will be required to show ID to the security guard to gain admission but you do not need to RSVP in public."
 ---
 
 We will start with introductions, some basic ground rules, and jump into technical discussions. We will cover aspects of the bitcoin protocol, new research developments, recent news, and software developments.
