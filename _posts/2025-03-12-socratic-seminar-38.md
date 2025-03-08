@@ -4,8 +4,8 @@ type: socratic
 title: "Socratic Seminar 38"
 meetup: https://lu.ma/3weo9v5m
 add_to_calendar: true
-start: 2025-03-12T23:00:00Z
-end: 2025-03-13T00:30:00Z
+start: 2025-03-12T22:00:00Z
+end: 2025-03-13T00:00:00Z
 location: "Fidelity Investments, 100 New Millennium Way, Durham, NC 27709"
 description: "BitDevs is a place for open discussion of the technical aspects of bitcoin and related protocols. Be advised: discussion will be technical. Please RSVP or email trianglebitdevs at protonmail dot com to confirm your attendance. You will be required to show ID to the security guard to gain admission but you do not need to RSVP in public."
 ---
