@@ -52,3 +52,4 @@ Please note the meeting location at Fidelity Investments near RTP.
 - [Block Size Report](https://research.mempool.space/block-size-report/)
 - [A Treatise on Bitcoin Block Space Economics](https://blog.lopp.net/treatise-bitcoin-block-space-economics/)
 - [Hal Finney speaks](https://njump.me/nevent1qqsf0a3jdehefr36ks70rsz04c75lfu5kdxwn49h8zm2hs8rqtrt58spzemhxue69uhkummnw3ezuum5v94k27fwdejhgq3q3fce6s3x325jta439097ddj97mkg9mlxf6kfrkhexh7uenclpljs0hedgz)
+- [2014 IETF Memo on the process of rough consensus](https://datatracker.ietf.org/doc/html/rfc7282)
