@@ -39,6 +39,7 @@ Please note the meeting location at Fidelity Investments near RTP.
 # Covenants
 - Jeremy Rubin, instigator of CTV [endorses a covenant proposal](https://x.com/JeremyRubin/status/1895676912401252588)
 - Bitcoin Core - [CTV PR opened](https://github.com/bitcoin/bitcoin/pull/31989) once again
+- [Decentralized Coordination Free Mining Pools](https://rubin.io/bitcoin/2021/12/12/advent-15/)
 
 # Ecash
 - [Ecash mints funded with Spillman channels: The ultimate nodeless Lightning wallet](https://gist.github.com/lukechilds/307341239beac72c9d8cfe3198f9bfff)
