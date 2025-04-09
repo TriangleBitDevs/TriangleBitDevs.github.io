@@ -26,6 +26,7 @@ Please note the meeting location at Fidelity Investments near RTP.
 # Bitcoin Core
 - [Bitcoin Core 29.0rc3](https://bitcoincore.org/bin/bitcoin-core-29.0/test.rc3/)
   - [Testing Guide](https://github.com/bitcoin-core/bitcoin-devwiki/wiki/29.0-Release-Candidate-Testing-Guide)
+- [SwiftSync - smarter synchronization with hints](https://gist.github.com/RubenSomsen/a61a37d14182ccd78760e477c78133cd)
 - This [tracking PR for IBD speedup improvements](https://github.com/bitcoin/bitcoin/pull/32043) shows some surprising progress! E.G.
   - [30% speedup for pruned nodes](https://github.com/bitcoin/bitcoin/pull/28280)
   - [30% speedup for low memory nodes](https://github.com/bitcoin/bitcoin/pull/30039)
