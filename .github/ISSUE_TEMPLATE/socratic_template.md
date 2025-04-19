@@ -1,28 +1,32 @@
 ---
-name: Socratic Seminar
-about: New issue template for Socratic Seminar
-title: Socratic Seminar ## 
-labels: ''
-
-
+name: Socratic Seminar Agenda
+about: compile discussion topics for the next Socratic Seminar
+title: Socratic Seminar ## Agenda
+labels: 'agenda'
 ---
-
-# Welcome
 
 Hello Bitcoiners! This is where we'll organize the topics of discussion for our upcoming Socratic Seminar.
 
-Please use this issue to suggest topics that you'd like to see discussed at the seminar. To suggest a topic, simply add a new comment to this issue with the topic title as the comment's title.
+### When and Where is the Seminar?
+WEEKDAY, MONTH DAY
+6:00 PM - 8:00 PM
+Fidelity Investments - Corporate Office
+Durham, North Carolina
 
-As we work through organizing the topics, feel free to edit and update your comments as needed. This will help us keep everything organized and easy to follow.
+Please use this issue to suggest topics that you'd like to see discussed at the seminar. To suggest a topic, simply add a new comment to this issue with a link to a news article, website, blog post, mailing list post, or PR that you would like to discuss. Feel free to edit and update your comments to add context or new developments.
 
-To help get us started, here are some main topics of discussion that we could consider:
+Remember this is a bitcoin discussion group. Please keep your suggestions narrowly focused. We will only consider topics that are directly related to bitcoin and the bitcoin ecosystem.
+
+To get us started, here is a non-comprehensive list of discussion topics:
 
 - Bitcoin Core
+- Soft Fork Proposals
 - Lightning Network
+- Ecash
+- Mining
 - Scaling
 - Privacy
 - Media
 - Miscellaneous
--
-Remember, this is **Bitcoin only**, do not post about your favorite clown-coin.<br>
-Thank you for your contributions and we look forward to a great seminar!
+
+Thank you for your contributions! We look forward to a great seminar!
