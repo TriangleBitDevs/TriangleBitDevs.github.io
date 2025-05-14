@@ -43,6 +43,7 @@ Please note the meeting location at Fidelity Investments near RTP.
 - [How CTV+CSFS improves BitVM bridges](https://delvingbitcoin.org/t/how-ctv-csfs-improves-bitvm-bridges/1591)
   - [Twitter thread](https://x.com/robin_linus/status/1908981041450385408)
   - [Delbrag](https://rubin.io/bitcoin/2025/04/04/delbrag/)
+- [Evolving the Ark protocol using CTV and CSFS](https://delvingbitcoin.org/t/evolving-the-ark-protocol-using-ctv-and-csfs/1602)
 
 # Mining
 - [Tether is deploying hashrate to OCEAN](https://tether.io/news/tether-to-deploy-hashrate-on-ocean-advancing-decentralized-bitcoin-mining-infrastructure/)
