@@ -17,7 +17,7 @@ Please note the meeting location in room Apex 1 at 100 New Millennium Way, Durha
 # Announcements
 
 - no pictures or recordings
-- chatham house rules
+- follow the [chatham house rule](https://en.wikipedia.org/wiki/Chatham_House_Rule)
   - discuss what was said, not who said it
 - don't be a jerk
 - thank you to our sponsor [Fidelity Investments](https://www.fidelity.com/)
