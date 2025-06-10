@@ -23,6 +23,28 @@ Please note the meeting location in room Apex 1 at 100 New Millennium Way, Durha
 - thank you to our sponsor [Fidelity Investments](https://www.fidelity.com/)
 - introductions
 
-# Agenda
+# Bitcoin Core
 
-The agenda will be updated closer to the event date. You can browse or suggest topics on this [github issue](https://github.com/TriangleBitDevs/TriangleBitDevs.github.io/issues/38).
+- [controversial OP_RETURN PR](https://github.com/bitcoin/bitcoin/pull/32406) merged
+  - glozow shares a [lengthy rationale](https://github.com/bitcoin/bitcoin/pull/32406#issuecomment-2955614286) explaining the merge
+
+# Bitcoin Policy
+
+- [CLARITY Act Amendment](https://x.com/zackbshapiro/status/1931847930530463973) protects many developers from money transmitter laws
+
+# Mining
+
+- [Marathon mines a 0.1 sat/vB transaction](https://x.com/mononautical/status/1931512028444656117)
+- [Scaling Noncustodial Mining Payouts with CTV](https://delvingbitcoin.org/t/scaling-noncustodial-mining-payouts-with-ctv/1753)
+
+# Privacy
+
+- [BIP 77: Async Payjoin](https://github.com/bitcoin/bips/pull/1483) merged to BIPs repo
+
+# Ark
+
+- Neha Narula: [Another explanation of how Ark works](https://nehanarula.org/2025/05/20/ark.html)
+
+# Miscellaneous
+
+- mempool research: [UTXO Set Report](https://research.mempool.space/utxo-set-report/)
