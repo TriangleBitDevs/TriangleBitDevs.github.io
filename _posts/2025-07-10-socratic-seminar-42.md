@@ -12,7 +12,7 @@ description: "BitDevs is a place for open discussion of the technical aspects of
 
 We will start with introductions, cover some basic ground rules, and then jump into technical discussions. Topics include aspects of the Bitcoin protocol, new research developments, recent news, and software developments.
 
-Please note the meeting location in room Apex 1 at 100 New Millennium Way, Durham, NC 27709, USA.
+Please note the meeting location in room Macintosh at 100 New Millennium Way, Durham, NC 27709, USA.
 
 # Announcements
 
