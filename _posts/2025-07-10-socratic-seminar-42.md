@@ -6,7 +6,7 @@ meetup: https://lu.ma/ec7iunis
 add_to_calendar: true
 start: 2025-07-09T22:00:00Z
 end: 2025-07-10T00:00:00Z
-location: "Apex 1, Fidelity Investments, 100 New Millennium Way, Durham, NC 27709"
+location: "Macintosh, Fidelity Investments, 100 New Millennium Way, Durham, NC 27709"
 description: "BitDevs is a place for open discussion of the technical aspects of bitcoin and related protocols. Be advised: discussion will be technical. Please RSVP or email trianglebitdevs at protonmail dot com to confirm your attendance. You will be required to show ID to the security guard to gain admission, but you do not need to RSVP in public."
 ---
 
