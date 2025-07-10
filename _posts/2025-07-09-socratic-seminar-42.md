@@ -23,6 +23,29 @@ Please note the meeting location in room Macintosh at 100 New Millennium Way, Du
 - thank you to our sponsor [Fidelity Investments](https://www.fidelity.com/)
 - introductions
 
-# Agenda
+# Bitcoin Core
 
-The agenda will be updated closer to the event date. You can browse or suggest topics on this [github issue](https://github.com/TriangleBitDevs/TriangleBitDevs.github.io/issues/39).
+ - [Rusty took a week off (\o/) to work (👎) on these four draft BIPs for GSR](https://github.com/bitcoin/bips/compare/master...rustyrussell:bips:guilt/varops)
+ - [What's a good stopping point? Making the case for the capabilities enabled by CTV+CSFS](https://groups.google.com/g/bitcoindev/c/-qJc1EWQzY0/m/9O_ga58aAwAJ)
+ - [Bitcoin kernel library project tracking](https://github.com/bitcoin/bitcoin/issues/27587)
+
+
+# Mining
+
+- [ATL Bitlabs Mine-Hackers Finalists](https://www.youtube.com/watch?v=yQjVJcQ9L1M)
+- [Sv2 - STARK proof of coinbase validity and template fees](https://x.com/dimahledba/status/1935354385795592491)
+
+# Privacy
+
+- [Whirlpool is back](https://ashigaru.rs/news/announcement-whirlpool/)
+
+# Ark
+
+- [Updated Ark protocol docs page](https://docs.second.tech/ark-protocol/intro/)
+
+# Miscellaneous
+
+- [Bitcoin Grants Common Application - apply to 5 orgs at once](https://grants.bitcoindevs.xyz/)
+- [Bitcoin Kyoto](https://github.com/2140-dev/kyoto)
+- [BTC Prage DevHackDay](https://btcprague.com/wp-content/uploads/2025/06/dhd2025-agenda-v3.pdf)
+- [Pre-emptive commit/reveal for quantum-safe migration (poison-pill)](https://groups.google.com/g/bitcoindev/c/oa4nDmlLzN4)
