@@ -4,8 +4,8 @@ type: socratic
 title: "Socratic Seminar 43"
 meetup: https://lu.ma/4eisf2jc
 add_to_calendar: true
-start: 2025-08-12T22:00:00Z
-end: 2025-08-13T00:00:00Z
+start: 2025-08-13T22:00:00Z
+end: 2025-08-14T00:00:00Z
 location: "Apex 1, Fidelity Investments, 100 New Millennium Way, Durham, NC 27709"
 description: "BitDevs is a place for open discussion of the technical aspects of bitcoin and related protocols. Be advised: discussion will be technical. Please RSVP or email trianglebitdevs at protonmail dot com to confirm your attendance. You will be required to show ID to the security guard to gain admission, but you do not need to RSVP in public."
 ---
