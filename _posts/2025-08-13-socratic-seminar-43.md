@@ -23,6 +23,32 @@ Please note the meeting location in room Apex 1 at 100 New Millennium Way, Durha
 - thank you to our sponsor [Fidelity Investments](https://www.fidelity.com/)
 - introductions
 
-# Agenda
+# Mining
+- [Sankey Merkle Visualization](https://stratum.work/sankey)
+  - new visualization on [boerst](https://x.com/boerst)'s excellent [stratum.work](https://stratum.work) site.
 
-The agenda will be updated closer to the event date. You can browse or suggest topics on this [github issue](https://github.com/TriangleBitDevs/TriangleBitDevs.github.io/issues/41).
+# Quantum
+- [Rijndael's excellent summary of the Quantum Bitcoin Summit](https://x.com/rot13maxi/status/1946735932394160490)
+- [Post Quantum Migration and Legacy Signature Sunset](https://github.com/jlopp/bips/blob/quantum_migration/bip-post-quantum-migration.mediawiki) BIP proposal
+- Chaincode - [Bitcoin and Quantum Computing: Current Status and Future Directions](https://chaincode.com/bitcoin-post-quantum.pdf)
+
+# Simplicity
+- Blockstream - [Simplicity Launches on Liquid mainnet](https://blog.blockstream.com/simplicity-launches-on-liquid-mainnet/)
+  - This liquid developer got the [first simplicity transaction](https://x.com/byronhambly/status/1950993794276511918) mined
+  - Example [simplicity script](https://delvingbitcoin.org/t/writing-simplicity-programs-with-simplicityhl/1900) to increment tx fee by 1 sat/sec
+
+# Fees
+- [Augur: Block’s Open Source Bitcoin Fee Estimation Library](https://delvingbitcoin.org/t/augur-block-s-open-source-bitcoin-fee-estimation-library/1848)
+
+# Lightning
+- [Disclosure: LND gossip_timestamp_filter DoS](https://delvingbitcoin.org/t/disclosure-lnd-gossip-timestamp-filter-dos/1859)
+
+# Utreexo
+- [Utreexo BIPs](https://github.com/utreexo/biptreexo)
+
+# Custody
+- [Chain Code Delegation: Private Access Control for Bitcoin Keys](https://delvingbitcoin.org/t/chain-code-delegation-private-access-control-for-bitcoin-keys/1837)
+
+# Legal
+- CoinCenter - [Six months of crypto policy: The good, the bad, and the lingering questions](https://www.coincenter.org/six-months-of-crypto-policy-the-good-the-bad-and-the-lingering-questions/)
+- Regulation by Monopoly - [Google Play Store Bans Wallets That Don't Have Banking License](https://www.therage.co/google-play-store-ban-wallets/)
