@@ -23,6 +23,23 @@ Please note the meeting location in room Apex 2 at 100 New Millennium Way, Durha
 - thank you to our sponsor [Fidelity Investments](https://www.fidelity.com/)
 - introductions
 
-# Agenda
+# Mining
+- [Block's Proto unveils Rig and Fleet](https://blockspace.media/insight/blocks-proto-unveils-rig-a-14-1-j-th-asic-miner-with-swappable-hashboards/)
+- [Sharing Block Templates BIP](https://delvingbitcoin.org/t/sharing-block-templates/1906)
+- [WIP C + CMake library for Intel's BZM2 asic](https://github.com/johnny9/bonanza-mine)
+- [PizzaAndy's 3D printer plate heated with BZM2 (256Foundation asic donation)](https://x.com/Real_PizzAndy/status/1965478792002175309)
 
-The agenda will be updated closer to the event date. You can browse or suggest topics on this [github issue](https://github.com/TriangleBitDevs/TriangleBitDevs.github.io/issues/42)
+# Bitcoin
+- [Add bitcoin-{node,gui} to release binaries for IPC (Merged)](https://github.com/bitcoin/bitcoin/pull/31802)
+- [policy: lower the default blockmintxfee, incrementalrelayfee, minrelaytxfee (Merged)](https://github.com/bitcoin/bitcoin/pull/33106)
+- [[IBD] Raspberry Pi: 90% CPU time for 1.5% of block processing (Issue)](https://github.com/bitcoin/bitcoin/issues/32832)
+
+# Lightning
+- [LDK: Improve privacy for Blinded Message Paths using Dummy Hops](https://github.com/lightningdevkit/rust-lightning/pull/3726)
+
+# General Developer
+- [NPM dependancy hijack targeting crypto wallets](https://jdstaerk.substack.com/p/we-just-found-malicious-code-in-the)
+- [OpenAI releases their IDE agent extension to compete with windsurf/cusor/copilot](https://developers.openai.com/codex/ide)
+
+# Legal
+- [New Market Structure Draft Amends Money Transmission Laws To Protect Developers](https://www.therage.co/senate-banking-money-transmission-developer-protection/)
