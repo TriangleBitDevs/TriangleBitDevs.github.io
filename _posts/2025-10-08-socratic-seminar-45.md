@@ -26,9 +26,10 @@ Please note the meeting location in FCAT Demo Room at 100 New Millennium Way, Du
 # Bitcoin Core
 
 - [Proposal](https://github.com/bitcoin/bips/pull/1985) to define scripts for mempool policy
-- [PortlandHODL](https://github.com/portlandhodl) dropped a [soft fork proposal](https://groups.google.com/g/bitcoindev/c/YO8ZwnG_ISs) teaser to limit spam by limiting scriptPubKey outpoint size to 520 bytes in legacy script.
+- [PortlandHODL](https://github.com/portlandhodl) dropped a [soft fork proposal](https://groups.google.com/g/bitcoindev/c/YO8ZwnG_ISs/m/nU25_cBCAgAJ) teaser
+  - attempts to limit spam by limiting scriptPubKey outpoint size to 520 bytes in legacy script
 - Bitcoin 30rc3 [Testing Guide](https://github.com/bitcoin-core/bitcoin-devwiki/wiki/30.0-Release-Candidate-Testing-Guide)
-- Great Script Restoration [BIP proposals](https://groups.google.com/g/bitcoindev/c/GisTcPb8Jco)
+- Great Script Restoration [BIP proposals](https://groups.google.com/g/bitcoindev/c/GisTcPb8Jco/m/8znWcWwKAQAJ)
 
 # Wallets
 
@@ -48,3 +49,4 @@ Please note the meeting location in FCAT Demo Room at 100 New Millennium Way, Du
 - [Tropic Square](https://tropicsquare.com/) secure element TROPIC01 dropped
   - more open secure element
   - developer support with no NDA
+- Pieter Wuille recently [responded](https://delvingbitcoin.org/t/response-to-pieter-wuilles-stackexchange-answer-re-nuking-the-opreturn-filter/1991/11) to questions and criticisms around his perspectives about spam and OP_RETURN
