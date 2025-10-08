@@ -23,6 +23,28 @@ Please note the meeting location in FCAT Demo Room at 100 New Millennium Way, Du
 - thank you to our sponsor [Fidelity Investments](https://www.fidelity.com/)
 - introductions
 
-# Agenda
+# Bitcoin Core
 
-The agenda will be updated closer to the event date. You can browse or suggest topics on this [github issue](https://github.com/TriangleBitDevs/TriangleBitDevs.github.io/issues/44)
+- [Proposal](https://github.com/bitcoin/bips/pull/1985) to define scripts for mempool policy
+- [PortlandHODL](https://github.com/portlandhodl) dropped a [soft fork proposal](https://groups.google.com/g/bitcoindev/c/YO8ZwnG_ISs) teaser to limit spam by limiting scriptPubKey outpoint size to 520 bytes in legacy script.
+- Bitcoin 30rc3 [Testing Guide](https://github.com/bitcoin-core/bitcoin-devwiki/wiki/30.0-Release-Candidate-Testing-Guide)
+- Great Script Restoration [BIP proposals](https://groups.google.com/g/bitcoindev/c/GisTcPb8Jco)
+
+# Wallets
+
+- Sparrow Wallet [v2.3.0](https://github.com/sparrowwallet/sparrow/releases/tag/2.3.0)
+  - supports sending to silent payment addresses and BIP353 DNS addresses! \o/
+- Payjoin Dev Kit [1.0.0-rc.0](https://github.com/payjoin/rust-payjoin/releases/tag/payjoin-1.0.0-rc.0)
+
+# Mining
+
+- SRI 1.5.0 [release notes](https://github.com/stratum-mining/stratum/releases/tag/v1.5.0)
+- Hashpool deployment on testnet4!
+  - [Pool Website](https://pool.hashpool.dev)
+  - [Proxy Website](https://proxy.hashpool.dev)
+
+# Miscellaneous
+
+- [Tropic Square](https://tropicsquare.com/) secure element TROPIC01 dropped
+  - more open secure element
+  - developer support with no NDA
