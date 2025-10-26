@@ -4,8 +4,8 @@ type: socratic
 title: "Socratic Seminar 46"
 meetup: https://lu.ma/wz0ug9ty
 add_to_calendar: true
-start: 2025-11-11T22:00:00Z
-end: 2025-11-12T00:00:00Z
+start: 2025-11-12T23:00:00Z
+end: 2025-11-13T01:00:00Z
 location: "Macintosh Room, Fidelity Investments, 100 New Millennium Way, Durham, NC 27709"
 description: "BitDevs is a place for open discussion of the technical aspects of bitcoin and related protocols. Be dvised: discussion will be technical. Please RSVP or email trianglebitdevs at protonmail dot com to confirm your ttendance. You will be required to show ID to the security guard to gain admission, but you do not need to RSVP in public."
 ---
