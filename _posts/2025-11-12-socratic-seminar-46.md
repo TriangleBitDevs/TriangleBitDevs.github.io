@@ -36,7 +36,7 @@ Please note the meeting location in FCAT Demo Room at 100 New Millennium Way, Du
 
 - [BIP: Chain Code Delegation for Private Collaborative Custody](https://github.com/bitcoin/bips/pull/2004)
 - [BIP draft: Reduced Data Temporary Softfork](https://github.com/bitcoin/bips/pull/2017)
-  - Pseudonymous BIP author [Dathon Ohm](https://x.com/dathon_ohm) is on X
+  - [bitcoin-dev Google Groups discussion](https://groups.google.com/g/bitcoindev/c/nOZim6FbuF8/m/FUbFjHYZAgAJ)
   - [mononaut compiles the transactions this would disable](https://x.com/mononautical/status/1988449182462660964)
   - BIP editor Murch is [not happy](https://x.com/murchandamus/status/1986540437889491328) about the self-assigned BIP number
 
