@@ -28,10 +28,13 @@ Please note the meeting location in FCAT Demo Room at 100 New Millennium Way, Du
 - 18 Bitcoin Core bugs disclosed in the past year
   - [Bitcoin Optech](https://bitcoinops.org/en/newsletters/2024/10/11/#disclosure-of-vulnerabilities-affecting-bitcoin-core-versions-before-25-0)
   - [Twitter Thread Explainer for all 18 bugs](https://x.com/bitschmidty/status/1980615654861324337)
-- [BIP: Chain Code Delegation for Private Collaborative Custody](https://github.com/bitcoin/bips/pull/2004)
 - Bitcoin Core PR: [chainparams: remove dnsseed.bitcoin.dashjr-list-of-p2p-nodes.us](https://github.com/bitcoin/bitcoin/pull/33723)
 - [Bitcoin Core Consensus Library merged](https://github.com/bitcoin/bitcoin/pull/30595)!
   - listen to TheCharlatan on the [Stephan Livera Podcast](https://stephanlivera.com/episode/696/)
+
+# BIPs
+
+- [BIP: Chain Code Delegation for Private Collaborative Custody](https://github.com/bitcoin/bips/pull/2004)
 - [BIP draft: Reduced Data Temporary Softfork](https://github.com/bitcoin/bips/pull/2017)
   - Pseudonymous BIP author [Dathon Ohm](https://x.com/dathon_ohm) is on X
   - [mononaut compiles the transactions this would disable](https://x.com/mononautical/status/1988449182462660964)
