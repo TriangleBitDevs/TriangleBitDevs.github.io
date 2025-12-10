@@ -23,7 +23,30 @@ Please note the meeting location in FCAT Demo Room at 100 New Millennium Way, Du
 - thank you to our sponsor [Fidelity Investments](https://www.fidelity.com/)
 - introductions
 
-# Agenda
+# Bitcoin
 
-The agenda will be updated closer to the event date. You can browse or suggest topics on this [github issue](https://github.com/TriangleBitDevs/TriangleBitDevs.github.io/issues/47)
+- [Where is the public roadmap for bitcoin core?](https://nitter.privacyredirect.com/bitschmidty/status/1986100498567499789)
+- [Hash-based Signature Schemes for Bitcoin](https://eprint.iacr.org/2025/2203.pdf)
+  - [n1ckler twitter thread](https://x.com/n1ckler/status/1998407064213704724?s=20)
+- [Motion to Activate BIP3](https://groups.google.com/g/bitcoindev/c/j4_toD-ofEc)
+- Brink - [An Independent Security Audit of Bitcoin Core](https://brink.dev/blog/2025/11/19/bitcoin-core-security-audit/)
+
+# Mining
+
+- [Mujina Mining Firmware Open Sourced](https://github.com/256foundation/mujina) during btc++ Durham‼️
+- [DMND Pool is Open for Business](https://bitcoinmagazine.com/bitcoin-mining/dmnd-pool-now-open-to-all-miners-with-soc-2-compliance-and-stratum-v2-support)
+  - [and only business](https://x.com/DMND_Sv2/status/1995527443357041026)
+- [Bitcoin Hashrate Dynamics: Price, Revenue Correction, and Evolution - A Time-Varying Parameter SVAR Stochastic Volatility Analysis](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5786322)
+- Delving Bitcoin - [Propagation Delay and Mining Centralization: Modeling Stale Rates](https://delvingbitcoin.org/t/propagation-delay-and-mining-centralization-modeling-stale-rates/2110)
+
+# Ecash
+
+- [Nut November Cashu Hackathon](https://nutnovember.org/)
+- [NUTXX - ECDH-derived Pay-to-Blinded-Key (P2BK)](https://github.com/cashubtc/nuts/pull/300)
+
+# Miscellaneous
+
+- [Chaincode ₿OSS Challenge](https://bosschallenge.xyz/)
+- [First Ever DIY Signing Device Summit](https://x.com/Vinteum_org/status/1986161383193370724)
+- [Second - Hiring Engineer](https://x.com/2ndbtc/status/1996535141242703986)
 
