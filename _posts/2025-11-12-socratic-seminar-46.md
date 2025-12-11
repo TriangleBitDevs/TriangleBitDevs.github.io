@@ -31,6 +31,7 @@ Please note the meeting location in FCAT Demo Room at 100 New Millennium Way, Du
 - Bitcoin Core PR: [chainparams: remove dnsseed.bitcoin.dashjr-list-of-p2p-nodes.us](https://github.com/bitcoin/bitcoin/pull/33723)
 - [Bitcoin Core Consensus Library merged](https://github.com/bitcoin/bitcoin/pull/30595)!
   - listen to TheCharlatan on the [Stephan Livera Podcast](https://stephanlivera.com/episode/696/)
+- [Implementation of SwiftSync](https://github.com/bitcoin/bitcoin/pull/34004)
 
 # BIPs
 
