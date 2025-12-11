@@ -30,6 +30,7 @@ Please note the meeting location in FCAT Demo Room at 100 New Millennium Way, Du
   - [n1ckler twitter thread](https://x.com/n1ckler/status/1998407064213704724?s=20)
 - [Motion to Activate BIP3](https://groups.google.com/g/bitcoindev/c/j4_toD-ofEc)
 - Brink - [An Independent Security Audit of Bitcoin Core](https://brink.dev/blog/2025/11/19/bitcoin-core-security-audit/)
+- [Implementation of SwiftSync](https://github.com/bitcoin/bitcoin/pull/34004)
 
 # Mining
 
