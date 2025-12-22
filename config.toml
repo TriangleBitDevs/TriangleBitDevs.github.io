@@ -1,0 +1,14 @@
+base_url = "https://trianglebitdevs.org"
+compile_sass = false
+build_search_index = false
+generate_feeds = true
+feed_filenames = ["feed.xml"]
+
+[markdown]
+highlight_code = false
+
+[extra]
+github = "https://github.com/TriangleBitDevs/TriangleBitDevs.github.io"
+meetup = "https://lu.ma/trianglebitdevs"
+nostr = "https://nostr.eu/npub18z4n70qxqv40xef4je7fd0zya462gmkhvf2eax695f6sfgrk9yvq55lrpv"
+twitter = "https://twitter.com/TriangleBitDevs"

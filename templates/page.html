@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>{{ page.title }}</h1>
+{%- if page.date %}
+<p><strong>{{ page.date | date(format="%B %d, %Y") }}</strong></p>
+{% endif -%}
+
+{%- if page.extra.meetup %}
+<p><a href="{{ page.extra.meetup }}" target="_blank">View on Meetup</a></p>
+{% endif -%}
+
+{%- if page.extra.nostr %}
+<p><a href="{{ page.extra.nostr }}" target="_blank">View on Nostr</a></p>
+{% endif -%}
+
+{%- if page.extra.add_to_calendar and page.extra.start and page.extra.end %}
+<p><em>Event Time: {{ page.extra.start | date(format="%B %d, %Y at %H:%M UTC") }}</em></p>
+{% endif -%}
+
+{{ page.content | safe }}
+{% endblock content %}

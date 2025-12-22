@@ -1,0 +1,25 @@
+{%- set event_title = title | default(value="Event") -%}
+{%- set event_start = start -%}
+{%- set event_end = end -%}
+{%- set event_location = location | default(value="") -%}
+{%- set event_description = description | default(value="") -%}
+
+{%- set ics_start = event_start | date(format="%Y%m%dT%H%M%SZ") -%}
+{%- set ics_end = event_end | date(format="%Y%m%dT%H%M%SZ") -%}
+{%- set ics_content = "BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Triangle BitDevs//Event//EN
+BEGIN:VEVENT
+UID:" ~ event_start ~ "@trianglebitdevs.org
+DTSTAMP:" ~ ics_start ~ "
+DTSTART:" ~ ics_start ~ "
+DTEND:" ~ ics_end ~ "
+SUMMARY:" ~ event_title ~ "
+LOCATION:" ~ event_location ~ "
+DESCRIPTION:" ~ event_description ~ "
+END:VEVENT
+END:VCALENDAR" -%}
+
+{%- set ics_data_uri = "data:text/calendar;charset=utf8," ~ ics_content | urlencode -%}
+
+<a href="{{ ics_data_uri }}" download="{{ event_title | slugify }}.ics">Add to Calendar (.ics)</a>

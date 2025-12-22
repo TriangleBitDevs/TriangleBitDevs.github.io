@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Blog</h2>
+<p>
+  Thoughts and commentary from Triangle BitDevs community members.
+</p>
+
+{% if section.pages %}
+<ul class="posts">
+  {% for page in section.pages %}
+    <li>
+      <time>{{ page.date | date(format="%d %b %Y") }}</time>
+      »
+      <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+{% else %}
+<p><em>No blog posts yet.</em></p>
+{% endif %}
+{% endblock content %}

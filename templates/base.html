@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!-- The Times 03/Jan/2009 Chancellor on brink of second bailout for banks -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>
+      Triangle BitDevs{% if page.title %} | {{ page.title }}{% endif %}
+    </title>
+    <meta name="description" content="Community for those interested in discussing and participating in the research and development of Bitcoin in the Triangle area of North Carolina.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Triangle BitDevs">
+    <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml">
+    <link href="/index.css" rel="stylesheet" type="text/css">
+
+    <style>
+      header {
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 1.75rem;
+      }
+
+      nav a {
+        display: inline-block;
+        margin-right: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1><a href="/">Triangle BitDevs</a></h1>
+      <nav>
+        <a href="{{ config.extra.nostr }}" target="_blank">Nostr</a>
+        <a href="{{ config.extra.twitter }}" target="_blank">Twitter</a>
+        <a href="{{ config.extra.meetup }}" target="_blank">Meetup</a>
+      </nav>
+    </header>
+    <hr>
+    <article>
+      {% block content %} {% endblock %}
+    </article>
+    <hr>
+    <footer>
+      <a href="{{ config.extra.github }}">Source</a>
+    </footer>
+  </body>
+</html>
