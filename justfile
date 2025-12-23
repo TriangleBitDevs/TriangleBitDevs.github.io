@@ -31,7 +31,7 @@ check-links:
 
 # Edit the most recent event
 edit:
-  vim content/events/`ls -t content/events/*.md | head -n1 | xargs basename`
+  vim content/`ls -t content/*.md | head -n1 | xargs basename`
 
 # Update feed template from Zola builtins
 update-feed-template:
