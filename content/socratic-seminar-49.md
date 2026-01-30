@@ -31,4 +31,5 @@ Please note the meeting location is 100 New Millennium Way, Durham, NC 27709, US
 - thank you to our sponsor [Fidelity Investments](https://www.fidelity.com/)
 - introductions
 
-Please check and contribute to https://github.com/TriangleBitDevs/TriangleBitDevs.github.io/issues/49 for the latest on the agenda
+# Agenda
+Please check and contribute to the github [issues](https://github.com/TriangleBitDevs/TriangleBitDevs.github.io/issues/49) for the latest on the agenda
