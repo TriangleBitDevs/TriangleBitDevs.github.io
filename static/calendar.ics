@@ -1,0 +1,220 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Triangle BitDevs//Calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Triangle BitDevs Events
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+X-LIC-LOCATION:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:socratic-seminar-38-20250312t220000z@trianglebitdevs.org
+DTSTAMP:20250312T220000Z
+DTSTART;TZID=America/New_York:20250312T180000
+DTEND;TZID=America/New_York:20250312T200000
+SUMMARY:Socratic Seminar 38
+LOCATION:Fidelity Investments\, 100 New Millennium Way\, Durham\, NC 2770
+ 9
+DESCRIPTION:BitDevs is a place for open discussion of the technical aspec
+ ts of bitcoin and related protocols. Be advised: discussion will be tech
+ nical. Please RSVP or email trianglebitdevs at protonmail dot com to con
+ firm your attendance. You will be required to show ID to the security gu
+ ard to gain admission but you do not need to RSVP in public.
+URL:https://trianglebitdevs.org/socratic-seminar-38/
+END:VEVENT
+BEGIN:VEVENT
+UID:socratic-seminar-39-20250409t220000z@trianglebitdevs.org
+DTSTAMP:20250409T220000Z
+DTSTART;TZID=America/New_York:20250409T180000
+DTEND;TZID=America/New_York:20250409T200000
+SUMMARY:Socratic Seminar 39
+LOCATION:Fidelity Investments\, 100 New Millennium Way\, Durham\, NC 2770
+ 9
+DESCRIPTION:BitDevs is a place for open discussion of the technical aspec
+ ts of bitcoin and related protocols. Be advised: discussion will be tech
+ nical. Please RSVP or email trianglebitdevs at protonmail dot com to con
+ firm your attendance. You will be required to show ID to the security gu
+ ard to gain admission but you do not need to RSVP in public.
+URL:https://trianglebitdevs.org/socratic-seminar-39/
+END:VEVENT
+BEGIN:VEVENT
+UID:socratic-seminar-40-20250514t220000z@trianglebitdevs.org
+DTSTAMP:20250514T220000Z
+DTSTART;TZID=America/New_York:20250514T180000
+DTEND;TZID=America/New_York:20250514T200000
+SUMMARY:Socratic Seminar 40
+LOCATION:Fidelity Investments\, 100 New Millennium Way\, Durham\, NC 2770
+ 9
+DESCRIPTION:BitDevs is a place for open discussion of the technical aspec
+ ts of bitcoin and related protocols. Be advised: discussion will be tech
+ nical. Please RSVP or email trianglebitdevs at protonmail dot com to con
+ firm your attendance. You will be required to show ID to the security gu
+ ard to gain admission but you do not need to RSVP in public.
+URL:https://trianglebitdevs.org/socratic-seminar-40/
+END:VEVENT
+BEGIN:VEVENT
+UID:socratic-seminar-41-20250611t220000z@trianglebitdevs.org
+DTSTAMP:20250611T220000Z
+DTSTART;TZID=America/New_York:20250611T180000
+DTEND;TZID=America/New_York:20250611T200000
+SUMMARY:Socratic Seminar 41
+LOCATION:Apex 1\, Fidelity Investments\, 100 New Millennium Way\, Durham\
+ , NC 27709
+DESCRIPTION:BitDevs is a place for open discussion of the technical aspec
+ ts of Bitcoin and related protocols. Be advised: discussion will be tech
+ nical. Please RSVP or email trianglebitdevs at protonmail dot com to con
+ firm your attendance. You will be required to show ID to the security gu
+ ard to gain admission\, but you do not need to RSVP in public.
+URL:https://trianglebitdevs.org/socratic-seminar-41/
+END:VEVENT
+BEGIN:VEVENT
+UID:socratic-seminar-42-20250709t220000z@trianglebitdevs.org
+DTSTAMP:20250709T220000Z
+DTSTART;TZID=America/New_York:20250709T180000
+DTEND;TZID=America/New_York:20250709T200000
+SUMMARY:Socratic Seminar 42
+LOCATION:Macintosh\, Fidelity Investments\, 100 New Millennium Way\, Durh
+ am\, NC 27709
+DESCRIPTION:BitDevs is a place for open discussion of the technical aspec
+ ts of bitcoin and related protocols. Be advised: discussion will be tech
+ nical. Please RSVP or email trianglebitdevs at protonmail dot com to con
+ firm your attendance. You will be required to show ID to the security gu
+ ard to gain admission\, but you do not need to RSVP in public.
+URL:https://trianglebitdevs.org/socratic-seminar-42/
+END:VEVENT
+BEGIN:VEVENT
+UID:socratic-seminar-43-20250813t220000z@trianglebitdevs.org
+DTSTAMP:20250813T220000Z
+DTSTART;TZID=America/New_York:20250813T180000
+DTEND;TZID=America/New_York:20250813T200000
+SUMMARY:Socratic Seminar 43
+LOCATION:Apex 1\, Fidelity Investments\, 100 New Millennium Way\, Durham\
+ , NC 27709
+DESCRIPTION:BitDevs is a place for open discussion of the technical aspec
+ ts of bitcoin and related protocols. Be advised: discussion will be tech
+ nical. Please RSVP or email trianglebitdevs at protonmail dot com to con
+ firm your attendance. You will be required to show ID to the security gu
+ ard to gain admission\, but you do not need to RSVP in public.
+URL:https://trianglebitdevs.org/socratic-seminar-43/
+END:VEVENT
+BEGIN:VEVENT
+UID:socratic-seminar-44-20250910t220000z@trianglebitdevs.org
+DTSTAMP:20250910T220000Z
+DTSTART;TZID=America/New_York:20250910T180000
+DTEND;TZID=America/New_York:20250910T200000
+SUMMARY:Socratic Seminar 44
+LOCATION:Apex 2\, Fidelity Investments\, 100 New Millennium Way\, Durham\
+ , NC 27709
+DESCRIPTION:BitDevs is a place for open discussion of the technical aspec
+ ts of bitcoin and related protocols. Be advised: discussion will be tech
+ nical. Please RSVP or email trianglebitdevs at protonmail dot com to con
+ firm your attendance. You will be required to show ID to the security gu
+ ard to gain admission\, but you do not need to RSVP in public.
+URL:https://trianglebitdevs.org/socratic-seminar-44/
+END:VEVENT
+BEGIN:VEVENT
+UID:socratic-seminar-45-20251008t220000z@trianglebitdevs.org
+DTSTAMP:20251008T220000Z
+DTSTART;TZID=America/New_York:20251008T180000
+DTEND;TZID=America/New_York:20251008T200000
+SUMMARY:Socratic Seminar 45
+LOCATION:FCAT Demo Room\, Fidelity Investments\, 100 New Millennium Way\,
+  Durham\, NC 27709
+DESCRIPTION:BitDevs is a place for open discussion of the technical aspec
+ ts of bitcoin and related protocols. Be advised: discussion will be tech
+ nical. Please RSVP or email trianglebitdevs at protonmail dot com to con
+ firm your attendance. You will be required to show ID to the security gu
+ ard to gain admission\, but you do not need to RSVP in public.
+URL:https://trianglebitdevs.org/socratic-seminar-45/
+END:VEVENT
+BEGIN:VEVENT
+UID:socratic-seminar-46-20251112t230000z@trianglebitdevs.org
+DTSTAMP:20251112T230000Z
+DTSTART;TZID=America/New_York:20251112T180000
+DTEND;TZID=America/New_York:20251112T200000
+SUMMARY:Socratic Seminar 46
+LOCATION:Macintosh Room\, Fidelity Investments\, 100 New Millennium Way\,
+  Durham\, NC 27709
+DESCRIPTION:BitDevs is a place for open discussion of the technical aspec
+ ts of bitcoin and related protocols. Be dvised: discussion will be techn
+ ical. Please RSVP or email trianglebitdevs at protonmail dot com to conf
+ irm your ttendance. You will be required to show ID to the security guar
+ d to gain admission\, but you do not need to RSVP in public.
+URL:https://trianglebitdevs.org/socratic-seminar-46/
+END:VEVENT
+BEGIN:VEVENT
+UID:socratic-seminar-47-20251210t230000z@trianglebitdevs.org
+DTSTAMP:20251210T230000Z
+DTSTART;TZID=America/New_York:20251210T180000
+DTEND;TZID=America/New_York:20251210T200000
+SUMMARY:Socratic Seminar 47
+LOCATION:Apex 1\, Fidelity Investments\, 100 New Millennium Way\, Durham\
+ , NC 27709
+DESCRIPTION:BitDevs is a place for open discussion of the technical aspec
+ ts of bitcoin and related protocols. Be dvised: discussion will be techn
+ ical. Please RSVP or email trianglebitdevs at protonmail dot com to conf
+ irm your ttendance. You will be required to show ID to the security guar
+ d to gain admission\, but you do not need to RSVP in public.
+URL:https://trianglebitdevs.org/socratic-seminar-47/
+END:VEVENT
+BEGIN:VEVENT
+UID:socratic-seminar-48-20260114t230000z@trianglebitdevs.org
+DTSTAMP:20260114T230000Z
+DTSTART;TZID=America/New_York:20260114T180000
+DTEND;TZID=America/New_York:20260114T200000
+SUMMARY:Socratic Seminar 48
+LOCATION:Fidelity Investments\, 100 New Millennium Way\, Durham\, NC 2770
+ 9
+DESCRIPTION:BitDevs is a place for open discussion of the technical aspec
+ ts of bitcoin and related protocols. Be advised: discussion will be tech
+ nical. Please RSVP or email trianglebitdevs at protonmail dot com to con
+ firm your attendance. You will be required to show ID to the security gu
+ ard to gain admission\, but you do not need to RSVP in public.
+URL:https://trianglebitdevs.org/socratic-seminar-48/
+END:VEVENT
+BEGIN:VEVENT
+UID:socratic-seminar-49-20260211t230000z@trianglebitdevs.org
+DTSTAMP:20260211T230000Z
+DTSTART;TZID=America/New_York:20260211T180000
+DTEND;TZID=America/New_York:20260211T200000
+SUMMARY:Socratic Seminar 49
+LOCATION:Fidelity Investments\, 100 New Millennium Way\, Durham\, NC 2770
+ 9
+DESCRIPTION:BitDevs is a place for open discussion of the technical aspec
+ ts of bitcoin and related protocols. Be advised: discussion will be tech
+ nical. Please RSVP or email trianglebitdevs at protonmail dot com to con
+ firm your attendance. You will be required to show ID to the security gu
+ ard to gain admission\, but you do not need to RSVP in public.
+URL:https://trianglebitdevs.org/socratic-seminar-49/
+END:VEVENT
+BEGIN:VEVENT
+UID:socratic-seminar-50-20260311t220000z@trianglebitdevs.org
+DTSTAMP:20260311T220000Z
+DTSTART;TZID=America/New_York:20260311T180000
+DTEND;TZID=America/New_York:20260311T200000
+SUMMARY:Socratic Seminar 50
+LOCATION:APEX 1\, Fidelity Investments\, 100 New Millennium Way\, Durham\
+ , NC 27709
+DESCRIPTION:BitDevs is a place for open discussion of the technical aspec
+ ts of bitcoin and related protocols. Be advised: discussion will be tech
+ nical. Please RSVP or email trianglebitdevs at protonmail dot com to con
+ firm your attendance. You will be required to show ID to the security gu
+ ard to gain admission\, but you do not need to RSVP in public.
+URL:https://trianglebitdevs.org/socratic-seminar-50/
+END:VEVENT
+END:VCALENDAR

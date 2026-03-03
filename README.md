@@ -34,7 +34,9 @@ The dev server runs at `http://localhost:1111`.
 just build
 ```
 
-This runs `zola build`.
+This runs:
+- `just build-calendar-ics` (generates `static/calendar.ics`)
+- `zola build`
 
 ## Content workflow
 
@@ -72,6 +74,7 @@ just new-event
 
 ## Other useful commands
 
+- `just build-calendar-ics` regenerates the top-level site calendar feed at `/calendar.ics`.
 - `just check-links` checks legacy Jekyll URL aliases.
 - `just edit` opens the most recent event file.
 - `just update-feed-template` refreshes `templates/feed.xml` from Zola builtins.

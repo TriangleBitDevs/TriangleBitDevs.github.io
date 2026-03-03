@@ -19,12 +19,16 @@ new-event:
 serve:
   zola serve --open --drafts
 
+# Build site-wide ICS feed at static/calendar.ics
+build-calendar-ics:
+  ./bin/build-calendar-ics.py
+
 # Open browser to local site
 open:
   open http://localhost:1111
 
 # Build for production
-build:
+build: build-calendar-ics
   zola build
 
 # Check that old Jekyll URLs still work
