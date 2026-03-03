@@ -2,7 +2,7 @@ list:
   just --list
 
 install:
-  cargo install zola
+  cargo install --locked --git https://github.com/getzola/zola
 
 # Build the calendar-gen tool
 build-calendar-gen:
