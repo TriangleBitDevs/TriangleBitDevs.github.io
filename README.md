@@ -1,41 +1,88 @@
 # Triangle BitDevs
 
-Simple Jekyll site for hosting all of the links from meetups past and future.
+Static site for Triangle BitDevs meetups, built with [Zola](https://www.getzola.org/).
 
-## Development
+## Prerequisites
 
-You'll need [Ruby & Jekyll](https://jekyllrb.com/docs/installation/) to run the
-site locally. For newer macs [these instructions](https://livid.v2ex.com/guides/2023/01/03/jekyll-macos-ventura.html) work better. Once they're setup:
+- [Rust + Cargo](https://www.rust-lang.org/tools/install)
+- [`just`](https://github.com/casey/just) task runner
 
-* Clone the repository and go into the directory
-* Run `bundle install`
-* Run `jekyll serve`
-* Go to http://localhost:4000
+Install `just` with Cargo if needed:
 
-## Making a Post
-
-To make a new post, make a new file in `_posts/` with a title of
-`YYYY-MM-DD-title-goes-here`. At the top of the file you'll want to provide the
-following information:
-
-```md
----
-layout: post # Always post
-type: socratic # or whitepaper for a whitepaper series
-title: "Name of the Post"
-meetup: https://www.meetup.com/BitDevsNYC/events/[event id here]/
----
+```bash
+cargo install just
 ```
 
-After that, it's just simple markdown. The site will auto-generate the rest.
+## Local development
 
-## Changing Site Data
+From the repo root:
 
-All site configurations are either contained in `_config.yml` or
-`_data/settings.yml`. Some data is duplicated between the two due to the way
-Jekyll injects variables, so be sure to update both.
+```bash
+just install
+just serve
+```
 
-## Attributions
+- `just install` installs Zola from source:
+  `cargo install --locked --git https://github.com/getzola/zola --tag v$(cat .zola-version)`
+- `just serve` runs `zola serve --open --drafts`
 
-Thanks to [LeNPaul](https://github.com/LeNPaul/jekyll-starter-kit) for the
-Jekyll starter kit this was forked from.
+The dev server runs at `http://localhost:1111`.
+
+## Build
+
+```bash
+just build
+```
+
+This runs `zola build`.
+
+## Content workflow
+
+Event/content pages live in `content/*.md` and use TOML front matter (`+++`).
+
+Example front matter:
+
+```toml
++++
+title = "Socratic Seminar 50"
+date = 2026-03-11
+template = "page.html"
+
+[extra]
+event_type = "socratic"
+add_to_calendar = true
+start = "2026-03-11T22:00:00Z"
+end = "2026-03-12T00:00:00Z"
+location = "APEX 1, Fidelity Investments, 100 New Millennium Way, Durham, NC 27709"
++++
+```
+
+Notes:
+- `start`/`end` are stored in UTC (`Z`) in content.
+- Event display and ICS output are rendered in `America/New_York` (EST/EDT as appropriate).
+
+## Calendar helper tool
+
+There is a small helper binary for generating event front matter:
+
+```bash
+just build-calendar-gen
+just new-event
+```
+
+## Other useful commands
+
+- `just check-links` checks legacy Jekyll URL aliases.
+- `just edit` opens the most recent event file.
+- `just update-feed-template` refreshes `templates/feed.xml` from Zola builtins.
+
+## Zola version pinning
+
+The Zola version is pinned in `.zola-version`.
+- Local install (`just install`) uses this pinned version.
+- GitHub Actions deploy uses the same pinned version.
+
+To upgrade Zola:
+1. Update `.zola-version`.
+2. Run `just install`.
+3. Run `just build` and verify output.
