@@ -1,8 +1,10 @@
+zola_version := `cat .zola-version`
+
 list:
   just --list
 
 install:
-  cargo install --locked --git https://github.com/getzola/zola
+  cargo install --locked --git https://github.com/getzola/zola --tag v{{zola_version}}
 
 # Build the calendar-gen tool
 build-calendar-gen:
@@ -36,5 +38,5 @@ edit:
 # Update feed template from Zola builtins
 update-feed-template:
   curl \
-    https://raw.githubusercontent.com/getzola/zola/master/components/templates/src/builtins/atom.xml \
+    https://raw.githubusercontent.com/getzola/zola/v{{zola_version}}/components/templates/src/builtins/atom.xml \
     > templates/feed.xml
