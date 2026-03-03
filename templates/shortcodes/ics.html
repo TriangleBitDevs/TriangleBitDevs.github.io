@@ -3,17 +3,37 @@
 {%- set event_end = end -%}
 {%- set event_location = location | default(value="") -%}
 {%- set event_description = description | default(value="") -%}
+{%- set calendar_tz = "America/New_York" -%}
+{%- set event_slug = event_title | slugify -%}
 
-{%- set ics_start = event_start | date(format="%Y%m%dT%H%M%SZ") -%}
-{%- set ics_end = event_end | date(format="%Y%m%dT%H%M%SZ") -%}
+{%- set ics_start = event_start | date(format="%Y%m%dT%H%M%S", timezone=calendar_tz) -%}
+{%- set ics_end = event_end | date(format="%Y%m%dT%H%M%S", timezone=calendar_tz) -%}
 {%- set ics_content = "BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Triangle BitDevs//Event//EN
+BEGIN:VTIMEZONE
+TZID:America/New_York
+X-LIC-LOCATION:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
-UID:" ~ event_start ~ "@trianglebitdevs.org
-DTSTAMP:" ~ ics_start ~ "
-DTSTART:" ~ ics_start ~ "
-DTEND:" ~ ics_end ~ "
+UID:" ~ ics_start ~ "-" ~ event_slug ~ "@trianglebitdevs.org
+DTSTAMP;TZID=America/New_York:" ~ ics_start ~ "
+DTSTART;TZID=America/New_York:" ~ ics_start ~ "
+DTEND;TZID=America/New_York:" ~ ics_end ~ "
 SUMMARY:" ~ event_title ~ "
 LOCATION:" ~ event_location ~ "
 DESCRIPTION:" ~ event_description ~ "
@@ -22,4 +42,4 @@ END:VCALENDAR" -%}
 
 {%- set ics_data_uri = "data:text/calendar;charset=utf8," ~ ics_content | urlencode -%}
 
-<a href="{{ ics_data_uri }}" download="{{ event_title | slugify }}.ics">Add to Calendar (.ics)</a>
+<a href="{{ ics_data_uri }}" download="{{ event_slug }}.ics">Add to Calendar (.ics)</a>

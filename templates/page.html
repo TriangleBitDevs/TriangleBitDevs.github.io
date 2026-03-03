@@ -19,7 +19,7 @@
 {% endif -%}
 
 {%- if page.extra.add_to_calendar and page.extra.start and page.extra.end %}
-<p><em>Event Time: {{ page.extra.start | date(format="%B %d, %Y at %H:%M UTC") }}</em></p>
+<p><em>Event Time: {{ page.extra.start | date(format="%B %d, %Y at %I:%M %p %Z", timezone="America/New_York") }}</em></p>
 {% endif -%}
 
 {{ page.content | safe }}
