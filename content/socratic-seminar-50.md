@@ -62,6 +62,7 @@ Please note the meeting location is in room APEX 1 at 100 New Millennium Way, Du
 # Misc
 
 - [First block signaling BIP110](https://mempool.space/block/0000000000000000000161b65dc9cf0adfdad107b801cd87f1dcf0cfbb454654?showDetails=true&view=actual#details)
+  - [Bip110 signal tracking](https://thebitcoinportal.com/nodes/bip110)
 - [Nested MuSig2](https://eprint.iacr.org/2026/223.pdf)
 - [Sigbash v2 announced](https://nitter.net/arbedout/status/2020885323778044259)
 - Using openclaw to gain super powers
