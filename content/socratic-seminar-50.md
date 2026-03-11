@@ -42,10 +42,10 @@ Please note the meeting location is in room APEX 1 at 100 New Millennium Way, Du
 
 # Mining
 
+- [Heatpunk summit talks are up on youtube](https://www.youtube.com/@SpaceDenver)
 - [BZM2 in mujina](https://github.com/256foundation/mujina/pull/41)
 - [Tether Mining SDK](https://mos.tether.io/mining-sdk/)
 - [FIBRE resurrected](https://lclhost.org/blog/fibre-resurrected/)
-- [hashes: add SHA256 ARM hardware acceleration](https://github.com/rust-bitcoin/rust-bitcoin/pull/5493)
 - [Parasite pool mines their first block](https://nitter.net/ord_io/status/2027873140282380792)
 - [[BIP Draft] 24 bits for nVersion nonce space instead of 16](https://groups.google.com/g/bitcoindev/c/fCfbi8hy-AE)
 
