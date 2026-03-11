@@ -34,12 +34,15 @@ Please note the meeting location is in room APEX 1 at 100 New Millennium Way, Du
 
 # Bitcoin Core
 
+- [P2MR output type discussion](https://github.com/bitcoin/bips/pull/1670)
+- [The future of the Bitcoin Core GUI](https://delvingbitcoin.org/t/the-future-of-the-bitcoin-core-gui/2253)
+- [New gui-qml contributor](https://github.com/bitcoin-core/gui-qml/pull/504)
+
 # Mining
 
-# Privacy
+- [BZM2 in mujina](https://github.com/256foundation/mujina/pull/41)
+- [Tether Mining SDK](https://mos.tether.io/mining-sdk/)
+- [FIBRE resurrected](https://lclhost.org/blog/fibre-resurrected/)
+- [hashes: add SHA256 ARM hardware acceleration](https://github.com/rust-bitcoin/rust-bitcoin/pull/5493)
+- [[BIP Draft] 24 bits for nVersion nonce space instead of 16](https://groups.google.com/g/bitcoindev/c/fCfbi8hy-AE)
 
-# Covenants
-
-# Layer 2
-
-# Miscellaneous
