@@ -35,6 +35,7 @@ Please note the meeting location is in room APEX 1 at 100 New Millennium Way, Du
 # Bitcoin Core
 
 - [P2MR output type discussion](https://github.com/bitcoin/bips/pull/1670)
+  - [best way to view the BIP](https://bips.xyz/360)
 - [The limitations of cryptographic agility in Bitcoin](https://mirror.b10c.me/lists/bitcoindev/THqOJuI_s5C8B9jkklN73BB_Hzb9SsiLM6BFp4zFP3zWQoRevKoLVspdwjwh8NxxYbXwv4v6ikpStguW-QEvef4WgBZ7AQDz00P0st91FMA=@wuille.net/t/#u)
 - [Introducing UltrafastSecp256k1: A Multi-Architecture Exploration of Secp256k1 Optimizations](https://delvingbitcoin.org/t/introducing-ultrafastsecp256k1-a-multi-architecture-exploration-of-secp256k1-optimizations/2280)
 - [The future of the Bitcoin Core GUI](https://delvingbitcoin.org/t/the-future-of-the-bitcoin-core-gui/2253)
@@ -59,6 +60,13 @@ Please note the meeting location is in room APEX 1 at 100 New Millennium Way, Du
 # Layer 2
 
 - [Bitcoin PIPEs v2](https://delvingbitcoin.org/t/bitcoin-pipes-v2/2249)
+
+# Ecash
+
+- Proof of Liabilities Implementation
+  - [Impl & Usage Guide](https://gist.github.com/victorandre957/4f497d385e1fd9a47898480903f56b3e)
+  - [NUT spec](https://github.com/victorandre957/nuts/pull/1/changes)
+  - [Nutshell impl](https://github.com/victorandre957/nutshell/pull/1)
 
 # Misc
 
