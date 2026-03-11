@@ -45,6 +45,7 @@ Please note the meeting location is in room APEX 1 at 100 New Millennium Way, Du
 
 - [Heatpunk summit talks are up on youtube](https://www.youtube.com/@SpaceDenver)
 - [Hashpool is back up](https://proxy.hashpool.dev/)
+  - [Haspool v0.1.1 tag](https://github.com/vnprc/hashpool/compare/v0.1...v0.1.1)
 - [BZM2 in mujina](https://github.com/256foundation/mujina/pull/41)
 - [Tether Mining SDK](https://mos.tether.io/mining-sdk/)
 - [FIBRE resurrected](https://lclhost.org/blog/fibre-resurrected/)
