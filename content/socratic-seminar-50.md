@@ -39,10 +39,12 @@ Please note the meeting location is in room APEX 1 at 100 New Millennium Way, Du
 - [Introducing UltrafastSecp256k1: A Multi-Architecture Exploration of Secp256k1 Optimizations](https://delvingbitcoin.org/t/introducing-ultrafastsecp256k1-a-multi-architecture-exploration-of-secp256k1-optimizations/2280)
 - [The future of the Bitcoin Core GUI](https://delvingbitcoin.org/t/the-future-of-the-bitcoin-core-gui/2253)
 - [New gui-qml contributor](https://github.com/bitcoin-core/gui-qml/pull/504)
+- [Using AI tooling for code review](https://delvingbitcoin.org/t/using-ai-tooling-for-code-review/2277)
 
 # Mining
 
 - [Heatpunk summit talks are up on youtube](https://www.youtube.com/@SpaceDenver)
+- [Hashpool is back up](https://proxy.hashpool.dev/)
 - [BZM2 in mujina](https://github.com/256foundation/mujina/pull/41)
 - [Tether Mining SDK](https://mos.tether.io/mining-sdk/)
 - [FIBRE resurrected](https://lclhost.org/blog/fibre-resurrected/)
