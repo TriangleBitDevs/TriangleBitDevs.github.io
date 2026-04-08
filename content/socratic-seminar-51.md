@@ -68,6 +68,7 @@ Please note the meeting location is at Fidelity Investments in Durham, North Car
 # AI
 
 - [From Hierarchy to Intelligence](https://sequoiacap.com/article/from-hierarchy-to-intelligence/)
+- [Bitcoin Agents](https://nunchuk.io/blog/bitcoin-agents)
 - [claw-code](https://github.com/ultraworkers/claw-code)
 - [Oh My Codex](https://github.com/Yeachan-Heo/oh-my-codex)
 - [llm-wiki](https://github.com/nvk/llm-wiki)
