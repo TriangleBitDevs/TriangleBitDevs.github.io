@@ -35,6 +35,8 @@ Please note the meeting location is at Fidelity Investments in Durham, North Car
 - [Bitcoin Core 31.0 RC2 testing guide](https://github.com/bitcoin-core/bitcoin-devwiki/wiki/31.0-Release-Candidate-Testing-Guide)
 - [Bitcoin Core 31.0 release schedule](https://github.com/bitcoin/bitcoin/issues/33607)
 - [Consensus Cleanup: demo of slow blocks on Signet](https://delvingbitcoin.org/t/consensus-cleanup-demo-of-slow-blocks-on-signet/2367)
+    - [Great consensus cleanup discussion](https://delvingbitcoin.org/t/great-consensus-cleanup-revival/710)
+- [BIP440: Varops Budget for Script Runtime Constraint, BIP441: Restoration of disabled Script (tapleaf 0xc2)](https://github.com/bitcoin/bips/pull/2118)
 - [BIP draft: Wallet Backup Metadata Format](https://github.com/bitcoin/bips/pull/2130)
 
 # Quantum
