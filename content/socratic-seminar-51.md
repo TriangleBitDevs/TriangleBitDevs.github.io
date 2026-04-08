@@ -38,6 +38,8 @@ Please note the meeting location is at Fidelity Investments in Durham, North Car
     - [Great consensus cleanup discussion](https://delvingbitcoin.org/t/great-consensus-cleanup-revival/710)
 - [BIP440: Varops Budget for Script Runtime Constraint, BIP441: Restoration of disabled Script (tapleaf 0xc2)](https://github.com/bitcoin/bips/pull/2118)
 - [BIP draft: Wallet Backup Metadata Format](https://github.com/bitcoin/bips/pull/2130)
+- [ProductionReady Launches](https://productionready.org/blog/productionready-launches)
+- [Brink funding Fabian Jahr for CISA research](https://x.com/bitschmidty/status/2041143804883788115)
 
 # Quantum
 
@@ -57,6 +59,10 @@ Please note the meeting location is at Fidelity Investments in Durham, North Car
 # Nostr
 
 - [Sprout](https://github.com/block/sprout)
+
+# Privacy
+
+- [How Wallet Fingerprints Damage Payjoin Privacy](https://payjoin.org/blog/2026/03/25/wallet-fingerprints-payjoin-privacy)
 
 # AI
 
