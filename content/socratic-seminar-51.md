@@ -36,6 +36,7 @@ Please note the meeting location is at Fidelity Investments in Durham, North Car
 - [Bitcoin Core 31.0 release schedule](https://github.com/bitcoin/bitcoin/issues/33607)
 - [Consensus Cleanup: demo of slow blocks on Signet](https://delvingbitcoin.org/t/consensus-cleanup-demo-of-slow-blocks-on-signet/2367)
     - [Great consensus cleanup discussion](https://delvingbitcoin.org/t/great-consensus-cleanup-revival/710)
+- [Hornet Node v0.1 Update](https://delvingbitcoin.org/t/hornet-node-v0-1-update/2300)
 - [BIP440: Varops Budget for Script Runtime Constraint, BIP441: Restoration of disabled Script (tapleaf 0xc2)](https://github.com/bitcoin/bips/pull/2118)
 - [BIP draft: Wallet Backup Metadata Format](https://github.com/bitcoin/bips/pull/2130)
 - [ProductionReady Launches](https://productionready.org/blog/productionready-launches)
@@ -76,3 +77,4 @@ Please note the meeting location is at Fidelity Investments in Durham, North Car
 # Miscellaneous
 
 - [MIT Bitcoin Expo 2026: Freedom for All](https://mitbitcoinexpo.org/)
+- Square auto-enables bitcoin payments starting March 30, 2026 - Lightning payments will now be accepted by all Square merchants by default
