@@ -39,6 +39,7 @@ Please note the meeting location is at Fidelity Investments in Durham, North Car
 - [Hornet Node v0.1 Update](https://delvingbitcoin.org/t/hornet-node-v0-1-update/2300)
 - [BIP440: Varops Budget for Script Runtime Constraint, BIP441: Restoration of disabled Script (tapleaf 0xc2)](https://github.com/bitcoin/bips/pull/2118)
 - [BIP draft: Wallet Backup Metadata Format](https://github.com/bitcoin/bips/pull/2130)
+- [Writing Fuzz Targets for Wallets: Avoiding Known Issues](https://delvingbitcoin.org/t/writing-fuzz-targets-for-wallets-avoiding-known-issues/2316)
 - [ProductionReady Launches](https://productionready.org/blog/productionready-launches)
 - [Brink funding Fabian Jahr for CISA research](https://x.com/bitschmidty/status/2041143804883788115)
 
