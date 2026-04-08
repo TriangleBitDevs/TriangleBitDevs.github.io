@@ -217,4 +217,19 @@ DESCRIPTION:BitDevs is a place for open discussion of the technical aspec
  ard to gain admission\, but you do not need to RSVP in public.
 URL:https://trianglebitdevs.org/socratic-seminar-50/
 END:VEVENT
+BEGIN:VEVENT
+UID:socratic-seminar-51-20260408t220000z@trianglebitdevs.org
+DTSTAMP:20260408T220000Z
+DTSTART;TZID=America/New_York:20260408T180000
+DTEND;TZID=America/New_York:20260408T200000
+SUMMARY:Socratic Seminar 51
+LOCATION:Fidelity Investments - Corporate Office\, Durham\, North Carolin
+ a
+DESCRIPTION:BitDevs is a place for open discussion of the technical aspec
+ ts of bitcoin and related protocols. Be advised: discussion will be tech
+ nical. Please RSVP or email trianglebitdevs at protonmail dot com to con
+ firm your attendance. You will be required to show ID to the security gu
+ ard to gain admission\, but you do not need to RSVP in public.
+URL:https://trianglebitdevs.org/socratic-seminar-51/
+END:VEVENT
 END:VCALENDAR

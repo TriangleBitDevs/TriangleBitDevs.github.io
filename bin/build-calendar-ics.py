@@ -4,10 +4,20 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
-from datetime import UTC, datetime
+from datetime import datetime, timezone
+import os
 from pathlib import Path
+import shutil
+import sys
 from zoneinfo import ZoneInfo
-import tomllib
+
+try:
+    import tomllib
+except ModuleNotFoundError:
+    py312 = shutil.which("python3.12")
+    if py312 and sys.executable != py312:
+        os.execvp(py312, [py312, __file__, *sys.argv[1:]])
+    raise RuntimeError("build-calendar-ics.py requires Python 3.11+ or an available python3.12")
 
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -68,7 +78,7 @@ def parse_front_matter(page_path: Path) -> dict:
 
 def parse_utc(timestamp: str) -> datetime:
     # Content stores UTC timestamps with trailing Z.
-    return datetime.fromisoformat(timestamp.replace("Z", "+00:00")).astimezone(UTC)
+    return datetime.fromisoformat(timestamp.replace("Z", "+00:00")).astimezone(timezone.utc)
 
 
 def ical_escape(value: str) -> str:
