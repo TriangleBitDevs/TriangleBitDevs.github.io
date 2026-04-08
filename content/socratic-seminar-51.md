@@ -52,11 +52,17 @@ Please note the meeting location is at Fidelity Investments in Durham, North Car
 - [bitaxeBonanza: Bitaxe based on the Intel BZM2 ASIC](https://github.com/bitaxeorg/bitaxeBonanza)
 - [SV2 UI: monitoring dashboard for your mining fleet](https://x.com/StratumV2/status/2041899941308604772?s=20)
 
+# Nostr
+
+- [Sprout](https://github.com/block/sprout)
+
 # AI
 
 - [claw-code](https://github.com/ultraworkers/claw-code)
+- [Oh My Codex](https://github.com/Yeachan-Heo/oh-my-codex)
 - [llm-wiki](https://github.com/nvk/llm-wiki)
 - [Hermes Agent](https://hermes-agent.org/)
+- [Paperclip](https://paperclip.ing/)
 
 # Miscellaneous
 
