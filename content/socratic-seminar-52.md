@@ -10,6 +10,8 @@ aliases = [
 
 [extra]
 event_type = "socratic"
+meetup = "https://www.meetup.com/trianglebitdevs/events/314614406/"
+luma = "https://luma.com/t4p4wwdd"
 add_to_calendar = true
 start = "2026-05-13T22:00:00Z"
 end = "2026-05-14T00:00:00Z"
