@@ -45,6 +45,7 @@ Please note the meeting location is in room APEX 1 at 100 New Millennium Way, Du
   - [Delving Bitcoin - Consensus Cleanup: demo of slow blocks on Signet](https://delvingbitcoin.org/t/consensus-cleanup-demo-of-slow-blocks-on-signet/2367)
 - [merged: BIP323: 24 nVersion bits for general purpose use](https://github.com/bitcoin/bips/pull/2116)
 - [BIP139: Wallet Metadata Backup Format](https://github.com/bitcoin/bips/pull/2130)
+- [Bitcoin Core project board](https://github.com/orgs/bitcoin-core/projects/1)
 
 # Quantum
 
