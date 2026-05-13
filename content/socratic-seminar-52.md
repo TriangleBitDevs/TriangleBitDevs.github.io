@@ -30,7 +30,7 @@ Please note the meeting location is in room APEX 1 at 100 New Millennium Way, Du
 - follow the [chatham house rule](https://en.wikipedia.org/wiki/Chatham_House_Rule)
   - discuss what was said, not who said it
 - don't be a jerk
-- thank you to our sponsor [Fidelity Investments](https://www.fidelity.com/)Consensus Cleanup: demo of slow blocks on Signet
+- thank you to our sponsor [Fidelity Investments](https://www.fidelity.com/)
 - introductions
 
 # Bitcoin Core
