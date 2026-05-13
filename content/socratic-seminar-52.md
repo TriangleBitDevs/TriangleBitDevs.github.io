@@ -66,6 +66,16 @@ Please note the meeting location is in room APEX 1 at 100 New Millennium Way, Du
 
 - [Spec Proposal: Cashu On-Chain Payment](https://github.com/thesimplekid/nuts/blob/onchain/XX.md)
 
+# Ark
+
+- [Arke: iOS Ark wallet in TestFlight](https://arke.cash/test/)
+
+# Mining
+
+- [Mujina Dev Call #2](https://forum.256foundation.org/t/mujina-dev-call-2/34)
+- [ESP-Miner: Add Stratum V2 (SV2) protocol support](https://github.com/bitaxeorg/ESP-Miner/pull/1553)
+  - [ESP-Miner early-access-2026-03 release](https://github.com/bitaxeorg/ESP-Miner/releases/tag/early-access-2026-03)
+
 # Privacy
 
 - [Possible solutions to node fingerprinting](https://bitcoinops.org/en/newsletters/2026/05/08/#possible-solutions-to-node-fingerprinting)
@@ -73,6 +83,13 @@ Please note the meeting location is in room APEX 1 at 100 New Millennium Way, Du
 # Wallets
 
 - [BIP451: Dust UTXO Disposal Protocol](https://github.com/bitcoin/bips/blob/master/bip-0451.mediawiki)
+
+# AI Tools
+
+- [Claude Design](https://www.anthropic.com/news/claude-design-anthropic-labs)
+- [open-design](https://github.com/nexu-io/open-design)
+- [Codex to Figma MCP](https://www.figma.com/blog/introducing-codex-to-figma/)
+  - Example use: [Bitcoin Core App issue #163](https://github.com/BitcoinDesign/Bitcoin-Core-App/issues/163)
 
 # Miscellaneous
 
