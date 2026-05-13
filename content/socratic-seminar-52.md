@@ -29,7 +29,7 @@ Please note the meeting location is in room APEX 1 at 100 New Millennium Way, Du
 - follow the [chatham house rule](https://en.wikipedia.org/wiki/Chatham_House_Rule)
   - discuss what was said, not who said it
 - don't be a jerk
-- thank you to our sponsor [Fidelity Investments](https://www.fidelity.com/)
+- thank you to our sponsor [Fidelity Investments](https://www.fidelity.com/)Consensus Cleanup: demo of slow blocks on Signet
 - introductions
 
 # Bitcoin Core
@@ -40,6 +40,8 @@ Please note the meeting location is in room APEX 1 at 100 New Millennium Way, Du
 - [Utreexod v0.5.0](https://github.com/utreexo/utreexod/releases/tag/v0.5.0)
     - [Supporting video](https://youtu.be/QoIqsKgqfHg?t=25244)
 - [TCP hole punching for Bitcoin nodes behind home NATs](https://delvingbitcoin.org/t/tcp-hole-punching-for-bitcoin-nodes-behind-home-nats/2497)
+- [b10c - BIP-54: Block propagation and validation duration during slow-to-validate blocks on Signet](https://b10c.me/observations/16-slow-block-propagation-validation-signet/)
+  - [Delving Bitcoin - Consensus Cleanup: demo of slow blocks on Signet](https://delvingbitcoin.org/t/consensus-cleanup-demo-of-slow-blocks-on-signet/2367)
 
 # Quantum
 
@@ -57,6 +59,10 @@ Please note the meeting location is in room APEX 1 at 100 New Millennium Way, Du
 - [BOLTs: simple taproot channels](https://github.com/lightning/bolts/pull/995)
 - [BOLTs: zero-fee commitment channels](https://github.com/lightning/bolts/pull/1228)
 
+# Ecash
+
+- [Spec Proposal: Cashu On-Chain Payment](https://github.com/thesimplekid/nuts/blob/onchain/XX.md)
+
 # Privacy
 
 - [Possible solutions to node fingerprinting](https://bitcoinops.org/en/newsletters/2026/05/08/#possible-solutions-to-node-fingerprinting)
@@ -64,3 +70,7 @@ Please note the meeting location is in room APEX 1 at 100 New Millennium Way, Du
 # Wallets
 
 - [BIP451: Dust UTXO Disposal Protocol](https://github.com/bitcoin/bips/blob/master/bip-0451.mediawiki)
+
+# Miscellaneous
+
+- [nowhere - event page](https://nowhr.xyz/s#dVNdc9pGFB295les-tKQMSCUYGNPH6IPiPmwwMJgG6f2lYQQKwutIhYIQaPpe_9lf0nvCqgbpp1hNKx0955zzz3HV_vd5ctAezS7ayuyJpNGlH5vXjwMX10-pePJuWs7nZre1dWuHZxl8k1Zp9z010tSJkPmpQ6nHnmWrR919ZfjF7okDgG9kRtg9eBGYTOSa3B7DXSKf0Eb5Tq0P2WjRKr8xu5S6sRB5JPD7d1dsDNVRT1X6rWPtYai7HotOvUjyrcE5DQs49PhIDdX0i6qKQqx_A3J5Ob23tmeIZOhJZ0RyyDqxYVyuXP_-uPPex8xv7n4bGs0Ripa4n8nNQI311IFu-lrezgeEJaSTN3yAx2X8qmYxeEkSRln8cKhEZkyTjy2IJyRzFyCNgSlgT0e2eoIcT3Gb9BJ2qYowrFbffh2K-rTHjS4u-Jki9VTRmLsBeYQPxXwyAyMjlR59w4p4w9kzRWV8BIih1zL6n3Q16ulj8NqHsgPk_eiAyK4Nqx6UkngwUO9mBAiFon2Fyken_IWzMbS7-_zWDoZr8LSoAovPakKUShVZwehy7BZS_moWyK4KctGcB7CF68Y6ERy1M8wUUtvJuCHVMB_AbnVf5tkrz90ygFW6C1k1xcOSFfCF62jacB0i22YWyzOPYfMEASYLdo6H8FU97syNvtuYfCPsbQR_BANRwvhsVn4hpzLBmgRaDUWk39bF4WEufr0H2L8n0ilCumvUvIUUD5fuQSs-l7P_TmPpKONDxDVk3NlX1ihrCrulkjW9TAmyL49xqTgkEvfF1tecLj_BJOkCEqIUxmJeKcyMRW6PgTzVdgCbzAklIX600_x2NPabDaV4zLzhVQtyW-StMA4L6BtJ_JpMK-KzDy354WYR4WsR4M8PyxQ859DbRgYaj2A9kb4dUWR4NzfW0538aDrgrgsIo7DjJLchCalfB8Rz4mJyIh2ufbTpT9Fp2DoYtxz4azMZRhdJ4qIk2LVzZ1AR7vf30pXeFQOCbvF1O4GHTaP4-3lVfY6kL5-TdZxknrFYdc-Wd_nt_yiFLuQbPxfEUPoTfnZh_7gxW7ejWzrijsB-Xxy-W8)
