@@ -43,6 +43,8 @@ Please note the meeting location is in room APEX 1 at 100 New Millennium Way, Du
 - [TCP hole punching for Bitcoin nodes behind home NATs](https://delvingbitcoin.org/t/tcp-hole-punching-for-bitcoin-nodes-behind-home-nats/2497)
 - [b10c - BIP-54: Block propagation and validation duration during slow-to-validate blocks on Signet](https://b10c.me/observations/16-slow-block-propagation-validation-signet/)
   - [Delving Bitcoin - Consensus Cleanup: demo of slow blocks on Signet](https://delvingbitcoin.org/t/consensus-cleanup-demo-of-slow-blocks-on-signet/2367)
+- [merged: BIP323: 24 nVersion bits for general purpose use](https://github.com/bitcoin/bips/pull/2116)
+- [BIP139: Wallet Metadata Backup Format](https://github.com/bitcoin/bips/pull/2130)
 
 # Quantum
 
