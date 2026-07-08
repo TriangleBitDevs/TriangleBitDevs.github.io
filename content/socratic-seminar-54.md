@@ -33,4 +33,33 @@ Please note the meeting location is in room APEX 1 at 100 New Millennium Way, Du
 
 # Discussion Topics
 
-- Agenda topics will be added before the seminar.
+# Bitcoin Core
+
+- [Mononaut: The Network - informal power structures in Bitcoin Core](https://www.citadel21.com/the-network)
+- [Bitcoin Core PR: replace libevent with native HTTP and socket handling](https://github.com/bitcoin/bitcoin/pull/35182)
+
+# Soft Forks and Script
+
+- [BIP-110 advanced to Complete status](https://github.com/bitcoin/bips/pull/2201) and [ord's BIP-110-compatible envelope parser](https://github.com/ordinals/ord/pull/4545)
+- [BIP 360: depth-zero script trees should be anyone-can-spend](https://github.com/bitcoin/bips/pull/2198)
+- [Bitcoin Inquisition Simplicity implementation PR is open](https://github.com/bitcoin-inquisition/bitcoin/pull/115)
+
+# Privacy and Wallets
+
+- [floresta-joinstr: CoinJoin on mobile using Utreexo/Floresta](https://x.com/1440000bytes/status/2066800243648434588)
+  - [Floresta wallet PR](https://github.com/1440000bytes/floresta_wallet/pull/1)
+
+# Ark
+
+- Ark wallets: [Noah](https://github.com/smolcars/noah) and [Arke](https://github.com/GBKS/arke)
+
+# Mining
+
+- [First Stratum V2 block mined by DEMAND pool](https://mempool.space/block/00000000000000000001a5bae00659902a120ea02bed9046aaf56651f673d5f6)
+- [Localhost Research is launching a mining unit](https://lclhost.org/blog/mining-unit/)
+- [Fee Selection for CTV-Based Mining Pool Fanouts](https://delvingbitcoin.org/t/fee-selection-for-ctv-based-mining-pool-fanouts/2698)
+
+# Miscellaneous
+
+- [Radar.chat - Signal fork with built-in Lightning payments](https://radar.chat)
+  - who runs the Lightning node? does it use Spark? is self-custody more important than privacy?
