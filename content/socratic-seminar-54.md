@@ -44,14 +44,17 @@ Please note the meeting location is in room APEX 1 at 100 New Millennium Way, Du
 - [BIP 360: depth-zero script trees should be anyone-can-spend](https://github.com/bitcoin/bips/pull/2198)
 - [Bitcoin Inquisition Simplicity implementation PR is open](https://github.com/bitcoin-inquisition/bitcoin/pull/115)
 
-# Privacy and Wallets
+# Privacy
 
 - [floresta-joinstr: CoinJoin on mobile using Utreexo/Floresta](https://x.com/1440000bytes/status/2066800243648434588)
   - [Floresta wallet PR](https://github.com/1440000bytes/floresta_wallet/pull/1)
 
 # Ark
 
-- Ark wallets: [Noah](https://github.com/smolcars/noah) and [Arke](https://github.com/GBKS/arke)
+- Wallets: 
+  - [Noah](https://github.com/smolcars/noah)
+  - [Arke](https://github.com/GBKS/arke)
+  - [Hal](https://halwallet.app/)
 
 # Mining
 
