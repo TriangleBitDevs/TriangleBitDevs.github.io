@@ -62,4 +62,5 @@ Please note the meeting location is in room APEX 1 at 100 New Millennium Way, Du
 # Miscellaneous
 
 - [Radar.chat - Signal fork with built-in Lightning payments](https://radar.chat)
-  - who runs the Lightning node? does it use Spark? is self-custody more important than privacy?
+  - discussion Qs: who runs the Lightning node? does it use Spark? is self-custody more important than privacy?
+  - [Stacker News - Recovery Phrase is Not the Same as Self-Custody](https://stacker.news/items/1521368)
