@@ -49,12 +49,10 @@ Please note the meeting location is in room APEX 1 at 100 New Millennium Way, Du
 - [floresta-joinstr: CoinJoin on mobile using Utreexo/Floresta](https://x.com/1440000bytes/status/2066800243648434588)
   - [Floresta wallet PR](https://github.com/1440000bytes/floresta_wallet/pull/1)
 
-# Ark
-
-- Wallets: 
-  - [Noah](https://github.com/smolcars/noah)
-  - [Arke](https://github.com/GBKS/arke)
-  - [Hal](https://halwallet.app/)
+# Ark Wallets: 
+- [Noah](https://github.com/smolcars/noah)
+- [Arke](https://github.com/GBKS/arke)
+- [Hal](https://halwallet.app/)
 
 # Mining
 
