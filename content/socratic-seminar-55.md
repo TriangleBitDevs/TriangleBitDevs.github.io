@@ -31,8 +31,6 @@ Please note the meeting location is in room APEX 1 at 100 New Millennium Way, Du
 - thank you to our sponsor [Fidelity Investments](https://www.fidelity.com/)
 - introductions
 
-# Discussion Topics
-
 # Self Custody
 
 Special focus this month.
