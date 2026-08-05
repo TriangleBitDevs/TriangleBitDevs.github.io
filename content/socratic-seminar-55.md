@@ -41,7 +41,6 @@ Special focus this month.
 - [Block: predictable RNG fallback and 32-bit reseed in Coldcard firmware](https://engineering.block.xyz/blog/predictable-rng-fallback-and-32-bit-reseed-in-coldcard-firmware)
 - [btc++ insider: when randombytes runs but doesn't](https://insider.btcpp.dev/p/when-randombytes-runs-but-doesnt)
 - [the reddit post that started it](https://www.reddit.com/r/Bitcoin/comments/1vatgl4/full_panic_one_of_my_wallets_was_drained/)
-- [CoinDesk: 594 BTC swept in 25 minutes](https://www.coindesk.com/tech/2026/07/31/major-bitcoin-wallet-flaw-drains-594-btc-in-25-minute-sweep)
 - [Kevin Loaec's analysis](https://x.com/KLoaec/status/2082926304995762209)
 - [Rob Hamilton's analysis](https://x.com/Rob1Ham/status/2082896614218203616)
 - move funds off Coldcard single sig and Coldcard-only multisig ASAP
@@ -59,23 +58,6 @@ Special focus this month.
 - [Seed Picker Solitaire: seed generation from a deck of cards](https://jimbojw.github.io/seed-picker-solitaire/seed-picker-solitaire.pdf)
 - [printable BIP-39 wordlist for dice and coin flips](https://github.com/hatgit/BIP39-wordlist-printable-en)
 - discussion: how do you compute the checksum word without trusting a device or a website?
-
-# BIP-110 and Chain Splits
-
-Mandatory signaling is projected to begin at block 961,632, somewhere between August 7 and August 15 - likely the same week as this seminar.
-
-- [bip110.org signaling monitor](https://bip110.org/monitor)
-- [BIP-110 monitor and simulator](https://delvingbitcoin.org/t/bip110-monitor-simulator/2746)
-- [CoinDesk: fork deadline nears with miner support at zero](https://www.coindesk.com/tech/2026/07/12/bitcoin-s-bip-110-fork-deadline-nears-with-miner-support-at-zero)
-- [Jason Hughes: BIP-110, my notes to miners](https://x.com/wk057/status/2077444826232955365)
-- [Bitcoin Magazine: the soft fork that tried to police "junk data", and why it's already failing](https://bitcoinmagazine.com/technical/the-bitcoin-softfork-that-tried-to-police-junk-data-and-why-its-already-failing)
-- [Murch: on the lack of replay protection](https://murch.one/posts/replay-protection/)
-- [calle: two forks are coming, here's how to stay safe](https://x.com/callebtc/status/2076245203568988533)
-- [Paul Sztorc's "eCash" BIP300/301 hard fork also targets August](https://ecash.com/)
-- discussion:
-  - what does a chain split do to a UTXO you already hold?
-  - is mandatory signaling a soft fork with teeth, or a hard fork wearing a hat?
-  - what, if anything, should a self-custody user do before block 961,632?
 
 # Bitcoin Core
 
@@ -105,17 +87,8 @@ Mandatory signaling is projected to begin at block 961,632, somewhere between Au
 - [Bitcoin after block rewards: preventing miner deviation as the subsidy approaches zero](https://arxiv.org/abs/2606.05503)
   - [Delving discussion](https://delvingbitcoin.org/t/research-bitcoin-after-block-rewards-preventing-miners-deviation-when-the-bitcoin-rewards-is-zero/2626)
 - [F2Pool mines two blocks at height 956,337](https://bnoc.xyz/t/f2pool-mines-two-blocks-at-height-956337/147)
-- [Merge Mining Monitor](https://mmm.deadmanoz.xyz)
 - [the Mined in America Act](https://www.therage.co/mined-in-america-act-bitcoin-at-risk/)
 - [reverse engineering the Canaan Avalon Nano3S](https://github.com/CryptoIceMLH/Nano3S)
-
-# Ecash
-
-- [CDK: mint quote lookup by public key](https://github.com/cashubtc/cdk/pull/1834)
-  - [NUT-XX: get quotes by pubkeys](https://github.com/cashubtc/nuts/pull/341)
-- [NUT-06: require signed mint info](https://github.com/cashubtc/nuts/pull/416)
-- [NUT-XX: efficient wallet recovery](https://github.com/cashubtc/nuts/pull/342)
-- [NUT-CTF-settle: multi-party atomic settlement](https://github.com/cashubtc/nuts/pull/412)
 
 # Privacy
 
