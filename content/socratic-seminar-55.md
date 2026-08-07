@@ -99,3 +99,4 @@ Special focus this month.
 - [notice of ICANN .bitcoin TLD community application](https://x.com/wiz/status/2085029140453830725)
 - [Bitcoin Security Consortium announced](https://x.com/BTCconsortium/status/2080262540047585543)
 - [BitMEX shuts down](https://www.bitmex.com/blog/bitmex-closure)
+- [rbitcoin](https://github.com/reardencode/rbitcoin)
