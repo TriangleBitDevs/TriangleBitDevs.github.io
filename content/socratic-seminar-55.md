@@ -55,6 +55,7 @@ Special focus this month.
 - [SeedPicker: draw your seed words out of a hat](https://seedpicker.net/guide/GUIDE.html)
 - [Seed Picker Solitaire: seed generation from a deck of cards](https://jimbojw.github.io/seed-picker-solitaire/seed-picker-solitaire.pdf)
 - [printable BIP-39 wordlist for dice and coin flips](https://github.com/hatgit/BIP39-wordlist-printable-en)
+- [SeedSigner Image Entropy](https://kdmukai-bot.github.io/seedsigner-ai-analysis/image-entropy)
 - discussion: how do you compute the checksum word without trusting a device or a website?
 
 # Bitcoin Core
