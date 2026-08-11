@@ -60,6 +60,7 @@ Special focus this month.
 
 # Bitcoin Core
 
+- [Test the experimental Bitcoin Core App preview](https://bitcoincore.app/)
 - [validation: fetch block input prevouts in parallel during ConnectBlock](https://github.com/bitcoin/bitcoin/pull/35295)
 - [Stale Tip P2P message BIP draft](https://github.com/pseudoramdom/bips/blob/staletip-bip-draft/bip-staletip.md)
   - [bitcoin-dev thread](https://groups.google.com/g/bitcoindev/c/AwOPNxF15mU)
