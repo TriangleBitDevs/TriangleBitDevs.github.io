@@ -84,6 +84,7 @@ Special focus this month.
 
 # Mining
 
+- 256 Foundation [256 Red Team](https://x.com/Schnitzel/status/2087619577484046470)
 - [a clockless vardiff strands a slowing miner](https://delvingbitcoin.org/t/research-a-clockless-vardiff-strands-a-slowing-miner/2718)
 - [SRI interoperability test library](https://github.com/stratum-mining/interoperability-tests-sv2/issues/1)
 - [Bitcoin after block rewards: preventing miner deviation as the subsidy approaches zero](https://arxiv.org/abs/2606.05503)
