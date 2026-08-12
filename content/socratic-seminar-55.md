@@ -50,6 +50,8 @@ Special focus this month.
 
 # Seed Generation and Entropy
 
+- Blockstream [Generate Recovery Phrase Words from the Real World](https://help.blockstream.com/generate-recovery-phrase-offline)
+  - [Revised in response to TBD feedback!](https://x.com/BlockstreamJade/status/2087585360964358587)
 - [How to safely roll dice for your bitcoin seed](https://mblack.io/posts/how-to-safely-roll-dice-for-your-bitcoin-seed/)
 - [button mashing entropy for Coldcard](https://x.com/roasbeef/status/2083265977048059988)
 - [SeedPicker: draw your seed words out of a hat](https://seedpicker.net/guide/GUIDE.html)
