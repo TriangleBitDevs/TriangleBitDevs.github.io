@@ -102,3 +102,4 @@ Special focus this month.
 - [Bitcoin Security Consortium announced](https://x.com/BTCconsortium/status/2080262540047585543)
 - [BitMEX shuts down](https://www.bitmex.com/blog/bitmex-closure)
 - [rbitcoin](https://github.com/reardencode/rbitcoin)
+- [Origin Seoul Bitcoin Conference](https://originseoulbtc.com/)
