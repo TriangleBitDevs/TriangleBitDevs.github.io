@@ -85,6 +85,7 @@ Special focus this month.
 # Mining
 
 - 256 Foundation [256 Red Team](https://x.com/Schnitzel/status/2087619577484046470)
+- [ESP-Miner-Bonanza v0.1.0: first release for the Bitaxe Bonanza (Intel ASIC)](https://github.com/johnny9/ESP-Miner-Bonanza/releases/tag/v0.1.0)
 - [a clockless vardiff strands a slowing miner](https://delvingbitcoin.org/t/research-a-clockless-vardiff-strands-a-slowing-miner/2718)
 - [SRI interoperability test library](https://github.com/stratum-mining/interoperability-tests-sv2/issues/1)
 - [Bitcoin after block rewards: preventing miner deviation as the subsidy approaches zero](https://arxiv.org/abs/2606.05503)
@@ -98,6 +99,13 @@ Special focus this month.
 - [silent payments harvest-now-decrypt-later attack](https://conduition.io/cryptography/hndl-silent-payments/)
 - [Sparrow 2.5.0 adds silent payment receives](https://github.com/sparrowwallet/sparrow/releases/tag/2.5.0)
 - [Babilonia: probabilistic coinjoin and covert betting](https://delvingbitcoin.org/t/babilonia-probabilistic-coinjoin-and-covert-betting/2704)
+
+# Quantum
+
+- [Lattice-based Signature Schemes for Bitcoin](https://x.com/Lhree/status/2086621580780859757?s=20)
+- [Classically breaking a post-quantum secure encryption scheme](https://eprint.iacr.org/2026/1630)
+- [Lifeboat and Lifejacket — Tadge Dryja](https://www.youtube.com/watch?v=PmW90HX89P8)
+- [Quantum BIPs Showdown — Isabel Foxen Duke, conduition, Nadav Kohen, and Tadge Dryja](https://www.youtube.com/watch?v=B8y7-m78mcQ)
 
 # Miscellaneous
 
