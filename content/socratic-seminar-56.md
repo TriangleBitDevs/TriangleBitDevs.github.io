@@ -32,17 +32,27 @@ Please note the meeting location is at 100 New Millennium Way, Durham, NC 27709,
 
 # The Liquid Hack
 
-Special focus this month. The biggest story in bitcoin since the last seminar.
+Special focus this month. The biggest story in bitcoin since the last seminar — and still live.
 
 - [Mempool: Liquid got got — 4000 BTC unauthorized withdrawal](https://x.com/mempool/status/2096689540488683952)
-- [on-chain: the 4,000 BTC withdrawal](https://blockstream.info/liquid/tx/ce4caece413cd9d444ce7ed9f54e5b328b3da5e4af301aff59a3571f76e988f2)
-- [mempool.space: related consolidation transaction](https://mempool.space/tx/c103de95817b43f2df635ec6f35ff126ca26a7c6d20570c4b01866b2b3e69a19)
-- [LLFOURN: Liquid Incident Brief](https://liquid-incident-brief-llf-20260906.fly.dev/)
+- [on-chain: the ~4,000 BTC peg-out via SideSwap](https://blockstream.info/liquid/tx/ce4caece413cd9d444ce7ed9f54e5b328b3da5e4af301aff59a3571f76e988f2)
+- [Liquid's official incident report: range-proof cache flaw in Elements, no keys compromised, reserve ~4,205 BTC → 197 BTC](https://x.com/Liquid_BTC/status/2097404704028545175)
+- [LLFOURN: Liquid Incident Brief — independent chain tracking](https://liquid-incident-brief-llf-20260906.fly.dev/)
+- the on-chain negotiation, in the operator's own OP_RETURNs:
+  - [message tx: "we are whitehats. contact us on chain"](https://mempool.space/tx/c103de95817b43f2df635ec6f35ff126ca26a7c6d20570c4b01866b2b3e69a19)
+  - [Mononaut: new OP_RETURN message(s) surfacing](https://x.com/mononautical/status/2096805707245081017)
+  - ["sending most back to bc1qdlld6…, is that ok" — 1,000-sat ping](https://mempool.space/tx/3a3eac4a26395b8c2563aaf1eb8b1b77798c81c7d6337f51321827a244a480aa)
+  - [3,400 BTC returned to the federation peg wallet](https://mempool.space/tx/a6d697a25266ce3c78774fd1d75f896b7af522ada209b0f6228ea497bc49a46d)
+  - PGP-encrypted payloads in between — not reproduced by anyone
+  - [Sep 9: authenticated OP_RETURN demands a 10% bounty; ~598.5 BTC consolidated back to the operator, not returned](https://mempool.space/tx/f7055f6c8dd00f404e48c12483ae740180f658db206733505bb27b015e579588)
+- [Elements v23.3.4 emergency release: harden range proof cache keys, add -norangeproofcache](https://github.com/ElementsProject/elements/releases/tag/elements-23.3.4)
+  - [PR #1600: sigcache hardening](https://github.com/ElementsProject/elements/pull/1600)
+- [Guillemet: "if this was ever a negotiated reward … it looks more like extortion than white-hat hacking"](https://x.com/P3b7_/status/2096998672206647806)
 - discussion:
-  - roughly 4,000 BTC in an unauthorized withdrawal, reported down to zero — whose balance is drained, and what is the blast radius for Liquid users?
-  - Liquid is a federation of functionaries. who holds these keys, how were they compromised, and what does an "unauthorized withdrawal" mean for the federation model?
-  - does this hurt the case for sidechains and federated layers, or is it just another exchange/wallet custody failure?
-  - what, if anything, can bitcoin users actually verify about peg-in and pegged-out balances?
+  - the "is that ok" message, an 85% return before any payment, and then a plaintext 10% bounty demand — is that extortion, ransom-style bargaining, or theft with a claim of right? where's the threat?
+  - the 15% holdback is authenticated to the operator key, but the PGP payloads are unreproduced. what evidence would actually settle the white-hat vs. extortion framing?
+  - no federation keys compromised — the failure was a range-proof cache key collision at the transaction layer. what does that say about federated sidechain custody vs. self-custody on L1?
+  - the network is still offline and the invalid peg-out has not been rejected. who bears the shortfall risk while ~598.5 BTC stays with the operator?
 
 # Bitcoin Core
 
@@ -55,26 +65,10 @@ Special focus this month. The biggest story in bitcoin since the last seminar.
 
 # Soft Forks and New BIPs
 
-- [BIP452: P2P UTXO Set Sharing](https://github.com/bitcoin/bips/pull/2137)
 - [BIP458: Half-Aggregation of BIP 340 Signatures](https://github.com/bitcoin/bips/pull/2205)
 - [BIP459: DahLIAS fully aggregated signatures for secp256k1](https://github.com/bitcoin/bips/pull/2210)
 - [BIP460: CISA for Taproot Key Path Spends](https://github.com/bitcoin/bips/pull/2212)
 - [BIP461: Deterministic ECDSA Signatures](https://github.com/bitcoin/bips/pull/2224)
-
-# The BIP 110 Chain Split
-
-- [BIP-110 monitoring stream: mandatory signaling start](https://b10c.me/projects/028-bip110-monitoring-livestream/)
-- [BIP110 Late-Upgrade Chainstate Validation Gap](https://blockslop.dev/)
-- [OCEAN accused of hashrate hijacking over BIP110](https://xcancel.com/ocean_mining/status/2086623170883399921)
-- [Inside OCEAN Mining during the BIP110 chain split — Bob Burnett interview](https://youtu.be/RGexQJfDh5Y)
-- [motion to remove Luke Dashjr from BIP Editors](https://groups.google.com/g/bitcoindev/c/knbv3MFwlvU)
-- [PR: Remove Luke from BIP Editors](https://github.com/bitcoin/bips/pull/2248)
-- [joint statement: Luke Dashjr has separated from OCEAN](https://www.prnewswire.com/news-releases/joint-statement-of-ocean-and-luke-dashjr-302864347.html)
-- [RIP-110: every Bitcoin transaction is a JPEG](https://x.com/lifofifo/status/2081456509825810794)
-- discussion:
-  - mandatory signaling has started — which nodes actually enforce it, and how deep does the split run?
-  - what does the OCEAN hashrate-allegation controversy say about miner coordination around soft forks?
-  - RIP-110 has everyone stuffing JPEGs into OP_RETURN; spam or a live stress test of the network?
 
 # Post-Quantum and Cryptography
 
@@ -82,7 +76,6 @@ Special focus this month. The biggest story in bitcoin since the last seminar.
 - [using formal verification tools on libshrincs](https://x.com/n1ckler/status/2087562757079982429)
 - [DropKick: a minimal commit/reveal PQ rescue protocol](https://groups.google.com/g/bitcoindev/c/6SqWPfBf-p0)
   - [conduition: Dropkick writeup](https://conduition.io/bitcoin/dropkick/)
-- [Lattice-based Signature Schemes for Bitcoin](https://eprint.iacr.org/2026/1628.pdf)
 
 # Lightning Network
 
@@ -101,7 +94,6 @@ Special focus this month. The biggest story in bitcoin since the last seminar.
 
 - [Elle Mouton: Ark, vTXOs, and trees — a full primer](https://www.ellemouton.com/posts/ark-vtxos-and-trees/)
 - [Minerva Mint: Ark-backed Cashu ecash](https://minervamnt.xyz/)
-- [bark new releases](https://second.tech/docs/changelog#25-august-2026)
 
 # Payjoin and Privacy
 
@@ -136,5 +128,4 @@ Special focus this month. The biggest story in bitcoin since the last seminar.
 
 # Miscellaneous
 
-- [new OP_RETURN message(s) surfacing](https://x.com/mononautical/status/2096805707245081017)
 - [OpenSats announces priority support for Bitcoin Red Team](https://opensats.org/blog/code-red-supporting-first-responders)
