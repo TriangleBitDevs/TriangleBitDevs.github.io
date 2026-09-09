@@ -32,8 +32,6 @@ Please note the meeting location is at 100 New Millennium Way, Durham, NC 27709,
 
 # The Liquid Hack
 
-Special focus this month. The biggest story in bitcoin since the last seminar — and still live.
-
 - [Mempool: Liquid got got — 4000 BTC unauthorized withdrawal](https://x.com/mempool/status/2096689540488683952)
 - [on-chain: the ~4,000 BTC peg-out via SideSwap](https://blockstream.info/liquid/tx/ce4caece413cd9d444ce7ed9f54e5b328b3da5e4af301aff59a3571f76e988f2)
 - [Liquid's official incident report: range-proof cache flaw in Elements, no keys compromised, reserve ~4,205 BTC → 197 BTC](https://x.com/Liquid_BTC/status/2097404704028545175)
