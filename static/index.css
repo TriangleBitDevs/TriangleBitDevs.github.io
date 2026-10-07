@@ -1,10 +1,29 @@
+:root {
+  /* identity: wordmark, nav, headings, agenda titles, inline code */
+  --mono: "Source Code Pro", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  /* running text: sub-bullets and expanded notes */
+  --prose: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+           "Noto Sans", "DejaVu Sans", Arial, sans-serif;
+
+  --ink: #2e2e2e;
+  --ink-soft: #474747;
+  --ink-faint: #8c8c8c;
+  --accent: #d8842a;
+  --link: #b4670f;
+  --rule: rgba(0, 0, 0, 0.16);
+
+  --indent: 2.2rem;
+  --sub-indent: 1.7rem;
+}
+
 html {
-  color: #333;
-  font-family: "Source Code Pro", monospace;
+  color: var(--ink);
+  font-family: var(--mono);
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
-  max-width: 880px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 2rem;
 }
@@ -39,12 +58,12 @@ footer, header {
 
 header > nav > a {
   color: #333;
-  opacity: 0.4;
-  font-size: 1.2rem;
+  opacity: 0.55;
+  font-size: 1.05rem;
 }
 
 a {
-  color: #f90;
+  color: var(--link);
   text-decoration: none;
 }
 
@@ -52,11 +71,13 @@ header > a {
   font-size: 2.2rem;
 }
 
-.posts {
-  font-size: 1.2rem;
+.posts,
+.posts li {
+  font-size: 1.05rem;
 }
 
 @font-face {
   font-family: 'Source Code Pro';
   src: url('/SourceCodePro-Regular.ttf.woff2') format('woff2');
+  font-display: swap;
 }

@@ -13,17 +13,248 @@
     <link href="/index.css" rel="stylesheet" type="text/css">
 
     <style>
+      /* ------------------------------------------------------------------
+         Typographic system
+
+           mono  (Source Code Pro)  identity: wordmark, nav, headings,
+                                    agenda titles, metadata, inline code
+           prose (system sans)      running text: sub-bullets, note prose
+
+         The rule is depth. The spine of the page stays terminal; the leaves,
+         where the long text actually lives, go proportional.
+         ------------------------------------------------------------------ */
+
       header {
         text-align: center;
       }
 
-      h1 {
-        font-size: 1.75rem;
+      header h1 {
+        font-size: 1.5rem;
+        margin: 0;
+        letter-spacing: -0.01em;
       }
 
       nav a {
         display: inline-block;
         margin-right: 10px;
+      }
+
+      /* --- headings ----------------------------------------------------- */
+
+      article h1,
+      article h2 {
+        font-family: var(--mono);
+        color: #1f1f1f;
+      }
+
+      /* page title */
+      article h1:first-of-type {
+        font-size: 1.8rem;
+        line-height: 1.2;
+        letter-spacing: -0.015em;
+        margin: 1.4rem 0 0.6rem;
+      }
+
+      /* section headings (h1 in agenda pages, h2 elsewhere) */
+      article h1:not(:first-of-type),
+      article h2 {
+        font-size: 1.2rem;
+        line-height: 1.3;
+        margin: 2.8rem 0 0.8rem;
+        padding-bottom: 0.3rem;
+        border-bottom: 1px dotted var(--rule);
+      }
+
+      /* --- page preamble: date, links, event time, intro ----------------- */
+
+      article > p {
+        font-size: 0.95rem;
+        line-height: 1.6;
+        max-width: 62ch;
+        margin: 0 0 0.55rem;
+      }
+
+      /* --- agenda items --------------------------------------------------- */
+
+      article > ul {
+        padding-left: var(--indent);
+        margin: 0.9rem 0 0;
+      }
+
+      /* simple one-line items stay tight */
+      article > ul > li {
+        margin-bottom: 0.45rem;
+      }
+
+      /* an item that carries sub-bullets gets more air */
+      article > ul > li:has(ul) {
+        margin-bottom: 0.95rem;
+      }
+
+      /* an item carrying an expandable note reads as one block */
+      article > ul > li:has(details.primer) {
+        margin-bottom: 1.7rem;
+      }
+
+      article > ul > li::marker {
+        color: var(--accent);
+      }
+
+      /* the headline of each block: terse, monospace */
+      article > ul > li,
+      article > ul > li > p {
+        font-family: var(--mono);
+        font-size: 1rem;
+        line-height: 1.45;
+        max-width: 64ch;
+      }
+
+      article > ul > li > p {
+        margin: 0 0 0.35rem;
+      }
+
+      /* --- sub-bullets: proportional running text ------------------------- */
+
+      article ul ul {
+        padding-left: var(--sub-indent);
+        margin: 0.4rem 0 0;
+      }
+
+      article ul ul li {
+        font-family: var(--prose);
+        font-size: 0.95rem;
+        line-height: 1.55;
+        color: var(--ink-soft);
+        max-width: 35rem;
+        margin-bottom: 0.38rem;
+      }
+
+      article ul ul li::marker {
+        color: #c6c6c6;
+      }
+
+      article ul ul li:last-child {
+        margin-bottom: 0;
+      }
+
+      /* --- links ----------------------------------------------------------- */
+
+      article a:hover {
+        text-decoration: underline;
+        text-underline-offset: 0.18em;
+        text-decoration-thickness: 1px;
+      }
+
+      /* --- inline code ------------------------------------------------------ */
+
+      article code {
+        font-family: var(--mono);
+        font-size: 0.88em;
+        background: rgba(0, 0, 0, 0.045);
+        border-radius: 3px;
+        padding: 0.05em 0.3em;
+      }
+
+      /* --- collapsible notes -------------------------------------------------- */
+
+      /* Left edge lines up with the text of the sub-bullets above it. */
+      details.primer {
+        margin: 0.7rem 0 0 calc(var(--sub-indent) - 0.9rem - 2px);
+        padding-left: 0.9rem;
+        border-left: 2px solid transparent;
+      }
+
+      details.primer > summary {
+        font-family: var(--mono);
+        font-size: 0.78rem;
+        letter-spacing: 0.04em;
+        color: var(--ink-faint);
+        cursor: pointer;
+        list-style: none;
+        width: fit-content;
+      }
+
+      details.primer > summary::-webkit-details-marker {
+        display: none;
+      }
+
+      details.primer > summary::before {
+        content: "[+]";
+        margin-right: 0.5em;
+        color: var(--accent);
+      }
+
+      details.primer[open] > summary::before {
+        content: "[-]";
+      }
+
+      details.primer > summary:hover {
+        color: var(--ink-soft);
+      }
+
+      details.primer[open] {
+        border-left-color: rgba(216, 132, 42, 0.5);
+        margin-bottom: 1.3rem;
+      }
+
+      details.primer[open] > summary {
+        margin-bottom: 0.7rem;
+      }
+
+      details.primer p {
+        font-family: var(--prose);
+        font-size: 1rem;
+        line-height: 1.68;
+        max-width: 35rem;
+        color: var(--ink);
+        margin: 0 0 0.9rem;
+      }
+
+      details.primer p:last-child {
+        margin-bottom: 0;
+      }
+
+      /* --- narrow screens ------------------------------------------------------ */
+
+      @media (max-width: 560px) {
+        :root {
+          --indent: 1.15rem;
+          --sub-indent: 1.1rem;
+        }
+
+        body {
+          padding: 1.25rem 1rem;
+        }
+
+        header {
+          flex-direction: column;
+          gap: 0.35rem;
+        }
+
+        article h1:first-of-type {
+          font-size: 1.5rem;
+        }
+
+        article h1:not(:first-of-type),
+        article h2 {
+          font-size: 1.1rem;
+          margin-top: 2.2rem;
+        }
+
+        article > ul > li,
+        article > ul > li > p,
+        article ul ul li {
+          font-size: 0.95rem;
+        }
+
+        article > p {
+          font-size: 0.88rem;
+        }
+
+        details.primer p {
+          font-size: 0.98rem;
+          line-height: 1.58;
+        }
       }
     </style>
   </head>
