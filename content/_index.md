@@ -1,4 +1,4 @@
 +++
-sort_by = "date"
+sort_by = "none"
 template = "index.html"
 +++
